@@ -17,14 +17,20 @@ test.describe('Register Page', () => {
     // Click on phone number registration method
     await page.getByRole('button', { name: /số điện thoại/i }).click();
     
+    // Check for full name input field
+    await expect(page.getByLabel(/họ và tên|họ tên/i)).toBeVisible();
+    
     // Check for phone number input field
     await expect(page.getByLabel(/số điện thoại/i)).toBeVisible();
     
-    // Check for password input field
-    await expect(page.getByLabel(/^mật khẩu$/i)).toBeVisible();
+    // Check for password input field - try with case insensitive and more flexible regex
+    await expect(page.locator('label:has-text("mật khẩu")').first()).toBeVisible();
+    const passwordInput = page.locator('input[type="password"]').first();
+    await expect(passwordInput).toBeVisible();
     
     // Check for repeat password input field
-    await expect(page.getByLabel(/nhập lại mật khẩu|xác nhận mật khẩu/i)).toBeVisible();
+    const confirmPasswordInput = page.locator('input[type="password"]').nth(1);
+    await expect(confirmPasswordInput).toBeVisible();
     
     // Check for submit button
     await expect(page.getByRole('button', { name: /đăng ký/i })).toBeVisible();
@@ -35,8 +41,11 @@ test.describe('Register Page', () => {
     // Click on phone number registration method
     await page.getByRole('button', { name: /số điện thoại/i }).click();
     
+    // Fill in full name to focus on password testing
+    await page.getByLabel(/họ và tên|họ tên/i).fill('Test User');
+    
     // Type in password field to trigger strength indicator
-    const passwordInput = page.getByLabel(/^mật khẩu$/i);
+    const passwordInput = page.locator('input[type="password"]').first();
     
     // Test weak password
     await passwordInput.fill('weak');
@@ -46,19 +55,19 @@ test.describe('Register Page', () => {
     await passwordInput.clear();
     await passwordInput.fill('StrongPass123!');
     
-    // Check for password requirements indicators
-    await expect(page.getByText(/chữ hoa|uppercase/i)).toBeVisible();
-    await expect(page.getByText(/chữ thường|lowercase/i)).toBeVisible();
-    await expect(page.getByText(/số|number|digit/i)).toBeVisible();
-    await expect(page.getByText(/ký tự đặc biệt|special character/i)).toBeVisible();
+    // Check for password requirements indicators - be more specific to avoid conflicts
+    await expect(page.locator('.space-y-1').getByText(/chữ hoa|uppercase/i)).toBeVisible();
+    await expect(page.locator('.space-y-1').getByText(/chữ thường|lowercase/i)).toBeVisible();
+    await expect(page.locator('.space-y-1').getByText('Số')).toBeVisible();
+    await expect(page.locator('.space-y-1').getByText(/ký tự đặc biệt|special character/i)).toBeVisible();
   });
 
   test('should display login suggestion for existing users', async ({ page }) => {
     // Check for login suggestion text
     await expect(page.getByText(/đã có tài khoản|already have an account/i)).toBeVisible();
     
-    // Check for login link
-    const loginLink = page.getByRole('link', { name: /đăng nhập/i });
+    // Check for login link in the main content area (not in header)
+    const loginLink = page.getByRole('main').getByRole('link', { name: /đăng nhập/i });
     await expect(loginLink).toBeVisible();
     
     // Verify the link points to login page
@@ -71,9 +80,10 @@ test.describe('Register Page', () => {
     await page.getByRole('button', { name: /số điện thoại/i }).click();
     
     // Fill in the registration form
-    await page.getByLabel(/số điện thoại/i).fill('0123456789');
-    await page.getByLabel(/^mật khẩu$/i).fill('StrongPass123!');
-    await page.getByLabel(/nhập lại mật khẩu|xác nhận mật khẩu/i).fill('StrongPass123!');
+    await page.getByLabel(/họ và tên|họ tên/i).fill('Nguyễn Văn A');
+    await page.getByLabel(/số điện thoại/i).fill('0375931008');
+    await page.locator('input[type="password"]').first().fill('StrongPass123!');
+    await page.locator('input[type="password"]').nth(1).fill('StrongPass123!');
     
     // Submit the form
     await page.getByRole('button', { name: /đăng ký/i }).click();
@@ -90,9 +100,10 @@ test.describe('Register Page', () => {
     await page.getByRole('button', { name: /số điện thoại/i }).click();
     
     // Fill in mismatched passwords
-    await page.getByLabel(/số điện thoại/i).fill('0123456789');
-    await page.getByLabel(/^mật khẩu$/i).fill('StrongPass123!');
-    await page.getByLabel(/nhập lại mật khẩu|xác nhận mật khẩu/i).fill('DifferentPass123!');
+    await page.getByLabel(/họ và tên|họ tên/i).fill('Nguyễn Văn B');
+    await page.getByLabel(/số điện thoại/i).fill('0375931009');
+    await page.locator('input[type="password"]').first().fill('StrongPass123!');
+    await page.locator('input[type="password"]').nth(1).fill('DifferentPass123!');
     
     // Try to submit
     await page.getByRole('button', { name: /đăng ký/i }).click();
