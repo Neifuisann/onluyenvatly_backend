@@ -30,7 +30,8 @@ build/
 
 # Testing
 coverage/
-playwright/reports/
+playwright-report/
+test-results/
 
 # Temporary files
 tmp/
