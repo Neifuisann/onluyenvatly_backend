@@ -51,11 +51,11 @@ test.describe('Login Page', () => {
     await page.getByLabel(/số điện thoại/i).fill(phoneNumber);
     await page.getByLabel(/mật khẩu/i).fill(password);
     
-    // Click login button and wait for navigation
-    await Promise.all([
-      page.waitForURL('http://localhost:3000/', { timeout: 10000 }),
-      page.getByRole('button', { name: /đăng nhập/i }).click()
-    ]);
+    // Click login button
+    await page.getByRole('button', { name: /đăng nhập/i }).click();
+    
+    // Wait for redirect to landing page (default when no returnUrl)
+    await page.waitForURL('http://localhost:3000/', { timeout: 10000 });
   });
 
   test('should redirect to intended page after login', async ({ page }) => {
