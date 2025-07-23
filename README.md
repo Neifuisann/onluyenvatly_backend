@@ -229,7 +229,7 @@ This file defines the routes for user authentication and authorization. It handl
 
 #### Student Authentication
 
-*   **`POST /student/login`**: This route is for student login.
+*   **`POST /login`**: This route is for student login.
     *   **Controller Method**: `authController.studentLogin`
     *   **Middleware**: `authRateLimit`, `logAuthEvent('student_login_attempt')`, `requireNotAuthenticated`, `validateStudentLogin`
 
@@ -1235,7 +1235,7 @@ These pages are accessible to all users, regardless of their authentication stat
     *   **Middleware**: `optionalAuth`, `addSessionInfo`, `noCacheMiddleware`
 *   **`GET /register`**: Serves the student registration page (`student-register.html`).
     *   **Middleware**: `optionalAuth`, `addSessionInfo`, `noCacheMiddleware`
-*   **`GET /student/login`**: Serves the student-specific login page (`student-login.html`).
+*   **`GET /login`**: Serves the student-specific login page (`student-login.html`).
     *   **Middleware**: `optionalAuth`, `addSessionInfo`, `noCacheMiddleware`
 *   **`GET /student/register`**: Serves the student registration page (`student-register.html`).
     *   **Middleware**: `optionalAuth`, `addSessionInfo`, `noCacheMiddleware`
@@ -1473,11 +1473,11 @@ sequenceDiagram
     participant Device as Device Tracker
     
     User->>Client: Access Login Page
-    Client->>Auth: GET /student/login
+    Client->>Auth: GET /login
     Auth->>Client: Return Login Form with CSRF Token
     
     User->>Client: Submit Credentials + Device Info
-    Client->>Auth: POST /student/login
+    Client->>Auth: POST /login
     Auth->>DB: Validate Credentials
     
     alt Valid Credentials

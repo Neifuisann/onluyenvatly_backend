@@ -42,7 +42,7 @@ router.get('/admin/check',
 );
 
 // Student authentication routes
-router.post('/student/login',
+router.post('/login',
   authRateLimit,
   logAuthEvent('student_login_attempt'),
   requireNotAuthenticated,

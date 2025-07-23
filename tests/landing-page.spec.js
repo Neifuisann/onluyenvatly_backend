@@ -95,7 +95,7 @@ test.describe('Landing Page', () => {
     await expect(page).toHaveURL('http://localhost:3000/leaderboard');
   });
 
-  test('should have login/sign in button in navbar that redirects to /student/login', async ({ page }) => {
+  test('should have login/sign in button in navbar that redirects to /login', async ({ page }) => {
     // Check navbar exists
     const navbar = page.getByRole('navigation');
     await expect(navbar).toBeVisible();
@@ -114,14 +114,14 @@ test.describe('Landing Page', () => {
       await expect(loginButton).toBeVisible();
       
       await loginButton.click();
-      await expect(page).toHaveURL('http://localhost:3000/student/login');
+      await expect(page).toHaveURL('http://localhost:3000/login');
     } else {
       // On desktop, login button is visible in navbar
       const loginButton = navbar.getByRole('link', { name: /Đăng nhập|Login|Sign in/i });
       await expect(loginButton).toBeVisible();
       
       await loginButton.click();
-      await expect(page).toHaveURL('http://localhost:3000/student/login');
+      await expect(page).toHaveURL('http://localhost:3000/login');
     }
   });
 
