@@ -32,6 +32,9 @@ test.describe('Login Page', () => {
   });
 
   test('should display forgot password link', async ({ page }) => {
+    // Click on phone number method first
+    await page.getByRole('button', { name: /số điện thoại/i }).click();
+    
     // Check for forgot password link
     await expect(page.getByRole('link', { name: /quên mật khẩu/i })).toBeVisible();
   });
@@ -48,14 +51,11 @@ test.describe('Login Page', () => {
     await page.getByLabel(/số điện thoại/i).fill(phoneNumber);
     await page.getByLabel(/mật khẩu/i).fill(password);
     
-    // Click login button
-    await page.getByRole('button', { name: /đăng nhập/i }).click();
-    
-    // Wait for navigation
-    await page.waitForNavigation();
-    
-    // Should redirect to landing page by default
-    await expect(page).toHaveURL('http://localhost:3000/');
+    // Click login button and wait for navigation
+    await Promise.all([
+      page.waitForURL('http://localhost:3000/', { timeout: 10000 }),
+      page.getByRole('button', { name: /đăng nhập/i }).click()
+    ]);
   });
 
   test('should redirect to intended page after login', async ({ page }) => {
@@ -72,8 +72,7 @@ test.describe('Login Page', () => {
     await page.getByRole('button', { name: /đăng nhập/i }).click();
     
     // Should redirect back to lessons page
-    await page.waitForNavigation();
-    await expect(page).toHaveURL('http://localhost:3000/lessons');
+    await page.waitForURL('http://localhost:3000/lessons', { timeout: 10000 });
   });
 
   test('should have proper styling and UX', async ({ page }) => {
