@@ -1,0 +1,98 @@
+{
+  "topic": "Các loại lực",
+  "grade": 10,
+  "category": "Lực và Động lực học",
+  "content": {
+    "gravity": {
+      "name": "Trọng lực",
+      "definition": "Lực hấp dẫn của Trái Đất tác dụng lên vật",
+      "formula": "P = mg",
+      "variables": {
+        "P": "Trọng lực (N)",
+        "m": "Khối lượng (kg)",
+        "g": "Gia tốc trọng trường ≈ 9.8 m/s² (thường lấy 10 m/s²)"
+      },
+      "direction": "Thẳng đứng hướng xuống",
+      "weight": "Trọng lượng là độ lớn của trọng lực"
+    },
+    "friction": {
+      "name": "Lực ma sát",
+      "types": {
+        "static_friction": {
+          "name": "Ma sát nghỉ",
+          "condition": "Xuất hiện khi vật có xu hướng chuyển động nhưng chưa chuyển động",
+          "formula": "Fms_nghỉ ≤ μn.N",
+          "characteristics": "Có giá trị biến đổi từ 0 đến μn.N"
+        },
+        "kinetic_friction": {
+          "name": "Ma sát trượt",
+          "condition": "Xuất hiện khi vật trượt trên bề mặt",
+          "formula": "Fms_trượt = μt.N",
+          "characteristics": "Có giá trị không đổi khi vật trượt"
+        },
+        "rolling_friction": {
+          "name": "Ma sát lăn",
+          "condition": "Xuất hiện khi vật lăn trên bề mặt",
+          "characteristics": "Nhỏ hơn nhiều so với ma sát trượt"
+        }
+      },
+      "variables": {
+        "μ": "Hệ số ma sát",
+        "N": "Áp lực (phản lực pháp tuyến)"
+      }
+    },
+    "elastic_force": {
+      "name": "Lực đàn hồi",
+      "hookes_law": {
+        "statement": "Trong giới hạn đàn hồi, lực đàn hồi tỉ lệ thuận với độ biến dạng",
+        "formula": "Fđh = k.|Δl|",
+        "variables": {
+          "k": "Độ cứng lò xo (N/m)",
+          "Δl": "Độ biến dạng (m)"
+        }
+      },
+      "direction": "Ngược chiều với chiều biến dạng"
+    },
+    "centripetal_force": {
+      "name": "Lực hướng tâm",
+      "definition": "Lực gây ra gia tốc hướng tâm cho vật chuyển động tròn đều",
+      "formula": "Fht = maht = mv²/r = mω²r",
+      "variables": {
+        "v": "Vận tốc dài (m/s)",
+        "r": "Bán kính quỹ đạo (m)",
+        "ω": "Vận tốc góc (rad/s)"
+      },
+      "examples": [
+        "Lực căng dây khi quay vật",
+        "Lực ma sát khi xe qua khúc cua",
+        "Lực hấp dẫn giữ vệ tinh quay quanh Trái Đất"
+      ]
+    },
+    "tension": {
+      "name": "Lực căng dây",
+      "characteristics": [
+        "Luôn hướng dọc theo dây",
+        "Kéo vật về phía dây",
+        "Độ lớn như nhau tại mọi điểm (dây nhẹ, không dãn)"
+      ]
+    },
+    "normal_force": {
+      "name": "Phản lực pháp tuyến",
+      "definition": "Lực do mặt tiếp xúc tác dụng lên vật",
+      "direction": "Vuông góc với mặt tiếp xúc",
+      "magnitude": "Phụ thuộc vào các lực khác tác dụng lên vật"
+    }
+  },
+  "examples": [
+    {
+      "title": "Lò xo treo thẳng đứng",
+      "problem": "Treo vật 200g vào lò xo có k = 100 N/m. Tính độ giãn lò xo.",
+      "solution": "Khi cân bằng: Fđh = P\nk.Δl = mg\nΔl = mg/k = 0.2×10/100 = 0.02m = 2cm"
+    },
+    {
+      "title": "Vật trên mặt phẳng nghiêng",
+      "problem": "Vật 2kg trên mặt phẳng nghiêng 30°, μ = 0.2. Tính gia tốc.",
+      "solution": "Px = mgsin30° = 2×10×0.5 = 10N\nN = mgcos30° = 2×10×0.866 = 17.32N\nFms = μN = 0.2×17.32 = 3.46N\na = (Px - Fms)/m = (10 - 3.46)/2 = 3.27 m/s²"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "chương": "Điện xoay chiều",
+  "lớp": 12,
+  "môn": "Vật lý",
+  "nội_dung": {
+    "lý_thuyết": {
+      "đại_cương_dòng_điện_xoay_chiều": {
+        "nguồn": ["VietJack", "LoiGiaiHay", "Hoc247", "VuiHoc"],
+        "nội_dung_chính": {
+          "nguyên_tắc": "Nguyên tắc tạo ra dòng điện xoay chiều",
+          "từ_thông": "Φ = NBScos(ωt + φ)",
+          "suất_điện_động": "e = E₀sin(ωt + φ)",
+          "giá_trị_hiệu_dụng": [
+            "U = U₀/√2",
+            "I = I₀/√2"
+          ]
+        }
+      },
+      "các_mạch_điện_xoay_chiều": {
+        "mạch_R": "UR cùng pha với i",
+        "mạch_L": {
+          "cảm_kháng": "ZL = ωL",
+          "độ_lệch_pha": "i trễ pha π/2 so với u"
+        },
+        "mạch_C": {
+          "dung_kháng": "ZC = 1/(ωC)",
+          "độ_lệch_pha": "i sớm pha π/2 so với u"
+        }
+      },
+      "mạch_RLC_nối_tiếp": {
+        "tổng_trở": "Z = √(R² + (ZL - ZC)²)",
+        "độ_lệch_pha": "tanφ = (ZL - ZC)/R",
+        "định_luật_ohm": "I = U/Z"
+      },
+      "công_suất_tiêu_thụ": {
+        "công_suất": "P = UIcosφ",
+        "hệ_số_công_suất": "cosφ = R/Z",
+        "công_suất_tỏa_nhiệt": "P = I²R"
+      },
+      "máy_biến_áp": {
+        "nguồn": ["LoiGiaiHay", "Hoc247"],
+        "nguyên_tắc": "Tăng điện áp bao nhiêu lần thì giảm dòng điện bấy nhiêu lần",
+        "công_suất_hao_phí": "ΔP = P²R/(Ucosφ)²",
+        "truyền_tải_điện_năng": "P = UIcosφ"
+      },
+      "động_cơ_không_đồng_bộ_ba_pha": {
+        "nguồn": ["VietJack", "Hoc247", "Hoc24"],
+        "nguyên_tắc": "Dựa trên hiện tượng cảm ứng điện từ và từ trường quay",
+        "tần_số": "f = np (n: vòng/s, p: số cặp cực)",
+        "công_suất_3_pha": "P = 3UpIpcosφ"
+      }
+    },
+    "công_thức": {
+      "file_pdf_tổng_hợp": {
+        "tiêu_đề": "Hệ thống toàn bộ công thức vật lý 12 từ A-Z",
+        "nguồn": "vnuf2.edu.vn"
+      },
+      "thầy_chu_văn_biên": {
+        "tiêu_đề": "Công thức tổng hợp của thầy Chu Văn Biên",
+        "nguồn": "OnLuyen.vn"
+      },
+      "thuvienvatlly": {
+        "tiêu_đề": "Công thức điện xoay chiều đầy đủ",
+        "nguồn": "ThuVienVatLy.com"
+      }
+    },
+    "bài_tập": {
+      "thuvienhoclieu": {
+        "tiêu_đề": "Các dạng bài tập về dòng điện xoay chiều có lời giải và đáp án",
+        "số_trang": "17 trang",
+        "nguồn": "ThuVienHocLieu.com"
+      },
+      "thuvienvatlly": {
+        "tiêu_đề": "LUYỆN GIẢI BÀI TẬP VẬT LÝ 12- ĐIỆN XOAY CHIỀU",
+        "định_dạng": "PDF",
+        "nguồn": "ThuVienVatLy.com"
+      },
+      "các_web_giáo_dục": {
+        "nguồn": ["VietJack", "LoiGiaiHay", "Hoc247"],
+        "mô_tả": "Bài tập có lời giải chi tiết theo từng bài học"
+      }
+    },
+    "trắc_nghiệm": {
+      "300_câu_hỏi": {
+        "nguồn": "ThuVienHocLieu",
+        "chi_tiết": {
+          "đại_cương": "80 câu",
+          "mạch_RLC": "135 câu",
+          "công_suất": "40 câu"
+        }
+      },
+      "175_câu": {
+        "nguồn": "VietJack",
+        "đặc_điểm": [
+          "Đầy đủ các mức độ: nhận biết, thông hiểu, vận dụng",
+          "Có đáp án và lời giải chi tiết"
+        ]
+      },
+      "50_câu": {
+        "nguồn": "LoiGiaiHay",
+        "đặc_điểm": [
+          "Theo từng bài học cụ thể",
+          "Có đáp án chi tiết"
+        ]
+      },
+      "28_câu_cơ_bản": {
+        "nguồn": "VietJack",
+        "nội_dung": "Tập trung vào đại cương dòng điện xoay chiều"
+      }
+    },
+    "video_bài_giảng": {
+      "cô_trần_thị_hạnh": {
+        "nguồn": "VietJack",
+        "chủ_đề": "Bài 12-18 chương Điện xoay chiều",
+        "nền_tảng": [
+          "App VietJack (Android/iOS)",
+          "Youtube: Vật lý 12 điện xoay chiều Cô Trần Thị Hạnh"
+        ]
+      }
+    },
+    "trang_web_giáo_dục": [
+      {
+        "tên": "VietJack.com",
+        "mô_tả": "Lý thuyết, bài tập, video đầy đủ"
+      },
+      {
+        "tên": "LoiGiaiHay.com", 
+        "mô_tả": "Lời giải SGK chi tiết"
+      },
+      {
+        "tên": "Hoc247.net",
+        "mô_tả": "Bài giảng và bài tập online"
+      },
+      {
+        "tên": "VuiHoc.vn",
+        "mô_tả": "Lý thuyết và ứng dụng thực tế"
+      },
+      {
+        "tên": "ThuVienHocLieu.com",
+        "mô_tả": "Tài liệu PDF tải về"
+      },
+      {
+        "tên": "ThuVienVatLy.com",
+        "mô_tả": "Chuyên sâu về Vật lý"
+      }
+    ],
+    "sách_giáo_khoa_mới": [
+      "Kết nối tri thức",
+      "Chân trời sáng tạo",
+      "Cánh diều"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "chương": "Sóng ánh sáng",
+  "lớp": 12,
+  "môn": "Vật lý",
+  "nội_dung": {
+    "lý_thuyết": {
+      "giao_thoa_ánh_sáng": {
+        "mô_tả": "Thí nghiệm Young",
+        "vị_trí_vân_sáng": "xs = kλD/a",
+        "khoảng_vân": "i = λD/a",
+        "điều_kiện_giao_thoa": "d₂ - d₁ = kλ"
+      },
+      "tán_sắc_ánh_sáng": {
+        "mô_tả": "Ánh sáng qua lăng kính"
+      },
+      "nhiễu_xạ_và_phân_cực": {
+        "mô_tả": "Nhiễu xạ và phân cực ánh sáng"
+      }
+    },
+    "tài_liệu": {
+      "vndoc": {
+        "nguồn": "VnDoc",
+        "nội_dung": "63 câu trắc nghiệm"
+      },
+      "thư_viện_học_liệu": {
+        "nguồn": "Thư Viện Học Liệu",
+        "nội_dung": "150 câu hỏi có đáp án"
+      },
+      "vuihoc": {
+        "nguồn": "Vuihoc.vn",
+        "nội_dung": "Bài tập giao thoa ánh sáng"
+      }
+    }
+  }
+}

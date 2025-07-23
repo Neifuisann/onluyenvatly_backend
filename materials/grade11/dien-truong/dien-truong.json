@@ -1,0 +1,184 @@
+{
+  "subject": "Vật lý 11",
+  "topic": "Điện trường",
+  "sections": [
+    {
+      "id": "ly-thuyet",
+      "title": "Lý thuyết cơ bản",
+      "subtopics": [
+        {
+          "title": "Điện tích và Định luật Coulomb",
+          "content": {
+            "dien_tich": {
+              "types": "Có 2 loại: điện tích dương (+) và điện tích âm (-)",
+              "interaction": "Điện tích cùng dấu đẩy nhau, trái dấu hút nhau",
+              "elementary_charge": "e = 1,6×10⁻¹⁹ C",
+              "quantization": "Mọi điện tích đều là bội số của e: q = ne"
+            },
+            "dinh_luat_coulomb": {
+              "formula": "F = k|q₁q₂|/r²",
+              "constant": "k = 9×10⁹ Nm²/C²",
+              "in_medium": "Trong môi trường điện môi: lực giảm ε lần"
+            },
+            "nhiem_dien": [
+              "Nhiễm điện do cọ xát",
+              "Nhiễm điện do tiếp xúc",
+              "Nhiễm điện do hưởng ứng"
+            ]
+          }
+        },
+        {
+          "title": "Điện trường và Cường độ điện trường",
+          "content": {
+            "dien_truong": "Không gian xung quanh điện tích, tác dụng lực lên điện tích khác",
+            "cuong_do_dien_truong": {
+              "formula": "E = F/q",
+              "unit": "V/m hoặc N/C",
+              "point_charge": "E = k|Q|/r²"
+            },
+            "duong_suc_dien": [
+              "Xuất phát từ điện tích dương, kết thúc ở điện tích âm",
+              "Không cắt nhau",
+              "Mật độ đường sức thể hiện độ mạnh của điện trường"
+            ]
+          }
+        },
+        {
+          "title": "Điện thế và Hiệu điện thế",
+          "content": {
+            "dien_the": "V = W/q (đơn vị: Vôn)",
+            "hieu_dien_the": "U = V₁ - V₂",
+            "cong_luc_dien": "A = qU",
+            "lien_he_E_U": "E = U/d (điện trường đều)"
+          }
+        },
+        {
+          "title": "Tụ điện và Năng lượng điện trường",
+          "content": {
+            "dien_dung": "C = Q/U (đơn vị: Fara)",
+            "nang_luong": "W = Q²/2C = CU²/2 = QU/2",
+            "ghep_tu": {
+              "noi_tiep": "1/C = 1/C₁ + 1/C₂ + ...",
+              "song_song": "C = C₁ + C₂ + ..."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "dang-bai-tap",
+      "title": "Các dạng bài tập chính",
+      "types": [
+        {
+          "title": "Bài tập về Định luật Coulomb",
+          "subtypes": [
+            "Tính lực tương tác giữa các điện tích",
+            "Xác định vị trí cân bằng của điện tích",
+            "Tổng hợp lực từ nhiều điện tích"
+          ]
+        },
+        {
+          "title": "Bài tập về Điện trường",
+          "subtypes": [
+            "Tính cường độ điện trường tại một điểm",
+            "Xác định vị trí E = 0",
+            "Chuyển động của điện tích trong điện trường"
+          ]
+        },
+        {
+          "title": "Bài tập về Điện thế - Hiệu điện thế",
+          "subtypes": [
+            "Tính công của lực điện",
+            "Xác định điện thế, hiệu điện thế",
+            "Bài toán về thế năng điện"
+          ]
+        },
+        {
+          "title": "Bài tập về Tụ điện",
+          "subtypes": [
+            "Tính điện dung, điện tích, hiệu điện thế",
+            "Ghép tụ điện",
+            "Năng lượng điện trường"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tai-lieu",
+      "title": "Nguồn tài liệu tham khảo",
+      "resources": [
+        {
+          "type": "website",
+          "items": [
+            {
+              "name": "Loigiaihay.com",
+              "description": "Bài tập trắc nghiệm và tự luận có lời giải chi tiết"
+            },
+            {
+              "name": "Vietjack.com",
+              "description": "Hơn 350 câu trắc nghiệm chọn lọc có đáp án"
+            },
+            {
+              "name": "Thuvienhoclieu.com",
+              "description": "20 câu tự luận + 60 câu trắc nghiệm có đáp án"
+            },
+            {
+              "name": "Vuihoc.vn",
+              "description": "Lý thuyết và bài tập có hướng dẫn giải"
+            }
+          ]
+        },
+        {
+          "type": "pdf",
+          "items": [
+            {
+              "name": "Hermann Gmeiner Bến Tre",
+              "description": "Tài liệu điện tích - điện trường"
+            },
+            {
+              "name": "THPT Phan Đăng Lưu",
+              "description": "Bài tập tự học Vật lý 11"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "items": [
+            {
+              "name": "Thầy Vũ Ngọc Anh",
+              "description": "Khóa học Vật lý 11 trên Mapstudy.vn"
+            }
+          ]
+        },
+        {
+          "type": "sach",
+          "items": [
+            "Phong tỏa Vật lí lớp 11 - Thầy Vũ Ngọc Anh",
+            "Sách giáo khoa Vật lý 11 các bộ: Kết nối tri thức, Chân trời sáng tạo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meo-hoc-tap",
+      "title": "Mẹo học tập hiệu quả",
+      "tips": [
+        "Nắm vững lý thuyết: Hiểu rõ các khái niệm, định luật, công thức",
+        "Làm bài tập theo dạng: Bắt đầu từ cơ bản đến nâng cao",
+        "Vẽ hình minh họa: Giúp hình dung bài toán rõ ràng",
+        "Luyện tập thường xuyên: Làm nhiều bài tập trắc nghiệm và tự luận",
+        "Tham khảo lời giải: Học cách trình bày và phương pháp giải"
+      ]
+    },
+    {
+      "id": "luu-y",
+      "title": "Lưu ý quan trọng",
+      "notes": [
+        "Chương Điện trường là nền tảng quan trọng, thường xuất hiện trong đề thi THPT Quốc gia",
+        "Cần thành thạo việc tổng hợp vectơ khi tính cường độ điện trường",
+        "Phân biệt rõ các đại lượng vô hướng (điện thế, thế năng) và vectơ (điện trường, lực)",
+        "Chú ý đơn vị khi tính toán"
+      ]
+    }
+  ]
+}

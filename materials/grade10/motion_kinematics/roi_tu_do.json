@@ -1,0 +1,70 @@
+{
+  "topic": "Sự rơi tự do",
+  "grade": 10,
+  "category": "Chuyển động và Động học",
+  "content": {
+    "definition": "Sự rơi của vật chỉ chịu tác dụng của trọng lực, theo phương thẳng đứng.",
+    "characteristics": {
+      "acceleration": {
+        "symbol": "g",
+        "value": "9.8 m/s² (có thể lấy 10 m/s²)",
+        "variations": {
+          "dia_cuc": "9.8324 m/s²",
+          "xich_dao": "9.7872 m/s²"
+        }
+      }
+    },
+    "formulas": {
+      "tha_roi": [
+        {
+          "name": "Vận tốc",
+          "formula": "v = gt",
+          "conditions": "Thả không vận tốc đầu"
+        },
+        {
+          "name": "Độ cao",
+          "formula": "h = ½gt²",
+          "conditions": "Thả không vận tốc đầu"
+        },
+        {
+          "name": "Liên hệ v và h",
+          "formula": "v² = 2gh",
+          "conditions": "Thả không vận tốc đầu"
+        }
+      ],
+      "nem_thang_dung": [
+        {
+          "name": "Vận tốc",
+          "formula": "v = v₀ ± gt",
+          "note": "+ nếu ném xuống, - nếu ném lên"
+        },
+        {
+          "name": "Độ cao",
+          "formula": "h = v₀t ± ½gt²",
+          "note": "+ nếu ném xuống, - nếu ném lên"
+        },
+        {
+          "name": "Độ cao cực đại",
+          "formula": "hmax = v₀²/2g",
+          "conditions": "Ném lên thẳng đứng"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "title": "Thả rơi vật",
+        "problem": "Một vật thả rơi tự do từ độ cao 9.8m. Tính thời gian rơi và vận tốc khi chạm đất (g = 9.8 m/s²).",
+        "solution": "Từ h = ½gt² → t = √(2h/g) = √(2×9.8/9.8) = √2 ≈ 1.41s\nVận tốc: v = gt = 9.8×1.41 = 13.8 m/s"
+      },
+      {
+        "title": "Ném vật lên cao",
+        "problem": "Ném một vật lên cao với vận tốc 20 m/s. Tìm độ cao cực đại và thời gian lên cao nhất.",
+        "solution": "hmax = v₀²/2g = 20²/(2×10) = 20m\nThời gian: t = v₀/g = 20/10 = 2s"
+      }
+    ],
+    "special_cases": {
+      "quang_duong_giay_cuoi": "Δh = v₀ + g(n - 0.5)",
+      "note": "Quãng đường rơi trong giây thứ n"
+    }
+  }
+}

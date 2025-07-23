@@ -1,0 +1,81 @@
+{
+  "grade": "11",
+  "subject": "Vật lý",
+  "description": "Tài liệu học tập Vật lý lớp 11 theo chương trình mới",
+  "topics": [
+    {
+      "id": "dao-dong",
+      "name": "Dao động",
+      "description": "Dao động điều hòa, con lắc lò xo, con lắc đơn",
+      "file": "dao-dong/dao-dong.json",
+      "subtopics": [
+        "Dao động điều hòa",
+        "Con lắc lò xo",
+        "Con lắc đơn",
+        "Tổng hợp dao động"
+      ]
+    },
+    {
+      "id": "song",
+      "name": "Sóng",
+      "description": "Sóng cơ, sóng âm, giao thoa sóng, sóng dừng",
+      "file": "song/song.json",
+      "subtopics": [
+        "Sóng cơ và sự truyền sóng",
+        "Giao thoa sóng",
+        "Sóng dừng",
+        "Sóng âm"
+      ]
+    },
+    {
+      "id": "dien-truong",
+      "name": "Điện trường",
+      "description": "Điện tích, điện trường, điện thế, tụ điện",
+      "file": "dien-truong/dien-truong.json",
+      "subtopics": [
+        "Điện tích - Định luật Coulomb",
+        "Điện trường và cường độ điện trường",
+        "Điện thế - Hiệu điện thế",
+        "Tụ điện"
+      ]
+    },
+    {
+      "id": "dong-dien",
+      "name": "Dòng điện",
+      "description": "Dòng điện không đổi, dòng điện trong các môi trường",
+      "file": "dong-dien/dong-dien.json",
+      "subtopics": [
+        "Dòng điện không đổi",
+        "Điện trở - Định luật Ohm",
+        "Nguồn điện",
+        "Dòng điện trong các môi trường"
+      ]
+    }
+  ],
+  "learning_resources": {
+    "websites": [
+      "VietJack.com",
+      "Loigiaihay.com",
+      "VuiHoc.vn",
+      "Thuvienhoclieu.com",
+      "Kenhgiaovien.com"
+    ],
+    "textbooks": [
+      "SGK Vật lý 11 - Kết nối tri thức",
+      "SGK Vật lý 11 - Chân trời sáng tạo",
+      "SGK Vật lý 11 - Cánh diều"
+    ],
+    "online_courses": [
+      "HOCMAI",
+      "Mapstudy.vn",
+      "Lythayquan.vn"
+    ]
+  },
+  "study_tips": [
+    "Nắm vững lý thuyết trước khi làm bài tập",
+    "Luyện tập đều đặn với các dạng bài tập khác nhau",
+    "Sử dụng đa dạng nguồn tài liệu",
+    "Xem video bài giảng để hiểu sâu hơn",
+    "Tự tạo sổ tay công thức riêng"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "topic": "Cơ năng và Định luật bảo toàn cơ năng",
+  "grade": 10,
+  "category": "Năng lượng",
+  "content": {
+    "mechanical_energy": {
+      "definition": "Cơ năng là tổng động năng và thế năng của vật",
+      "formula": "W = Wđ + Wt = ½mv² + mgz",
+      "for_spring_system": "W = Wđ + Wđh = ½mv² + ½kx²",
+      "unit": "Jun (J)"
+    },
+    "conservation_law": {
+      "statement": "Khi vật chỉ chịu tác dụng của trọng lực (hoặc lực đàn hồi), cơ năng được bảo toàn",
+      "mathematical_form": "W₁ = W₂",
+      "expanded_form": "½mv₁² + mgz₁ = ½mv₂² + mgz₂",
+      "conditions": [
+        "Chỉ có trọng lực hoặc lực đàn hồi sinh công",
+        "Bỏ qua ma sát và lực cản",
+        "Hệ kín về năng lượng"
+      ]
+    },
+    "problem_solving_steps": [
+      "Chọn hệ quy chiếu và mốc thế năng",
+      "Xác định cơ năng tại vị trí đầu và cuối",
+      "Áp dụng định luật bảo toàn cơ năng",
+      "Giải phương trình tìm đại lượng cần tìm"
+    ],
+    "energy_with_friction": {
+      "formula": "W₂ - W₁ = Ams",
+      "meaning": "Độ giảm cơ năng bằng công của lực ma sát",
+      "heat_conversion": "Cơ năng chuyển thành nhiệt năng"
+    },
+    "examples": [
+      {
+        "title": "Vật rơi tự do",
+        "problem": "Thả vật 2kg từ độ cao 5m. Tính vận tốc khi vật cách đất 2m. (g = 10 m/s²)",
+        "solution": "Chọn mốc thế năng tại mặt đất\nTại vị trí thả: W₁ = mgh₁ = 2×10×5 = 100 J\nTại độ cao 2m: W₂ = ½mv² + mgh₂\nÁp dụng ĐLBT: 100 = ½×2×v² + 2×10×2\nv = √60 ≈ 7.75 m/s"
+      },
+      {
+        "title": "Con lắc đơn",
+        "problem": "Con lắc dài 1m, thả từ vị trí dây hợp với phương thẳng đứng góc 60°. Tính vận tốc cực đại.",
+        "solution": "h = l(1 - cos60°) = 1×(1 - 0.5) = 0.5m\nTại vị trí cao nhất: W₁ = mgh = 0.5mg\nTại vị trí thấp nhất: W₂ = ½mv²max\nBảo toàn: 0.5mg = ½mv²max\nvmax = √(g) = √10 ≈ 3.16 m/s"
+      },
+      {
+        "title": "Mặt phẳng nghiêng có ma sát",
+        "problem": "Vật trượt từ đỉnh mặt phẳng nghiêng dài 5m, góc 30°, μ = 0.25. Tính vận tốc ở chân dốc.",
+        "solution": "h = l.sin30° = 5×0.5 = 2.5m\nAms = -μmgcos30°×l = -0.25×mg×0.866×5 = -1.08mg\nÁp dụng: ½mv² - mgh = Ams\n½v² = gh + Ams/m = 10×2.5 - 1.08×10 = 14.2\nv = √28.4 ≈ 5.33 m/s"
+      }
+    ],
+    "special_applications": {
+      "roller_coaster": {
+        "description": "Tàu lượn siêu tốc",
+        "energy_analysis": "Thế năng cao nhất tại đỉnh, động năng cao nhất tại điểm thấp nhất"
+      },
+      "pendulum_clock": {
+        "description": "Đồng hồ quả lắc",
+        "energy_analysis": "Chuyển đổi liên tục giữa động năng và thế năng"
+      },
+      "spring_gun": {
+        "description": "Súng lò xo",
+        "energy_analysis": "Thế năng đàn hồi chuyển thành động năng của viên đạn"
+      }
+    },
+    "energy_bar_diagrams": {
+      "description": "Biểu đồ cột năng lượng giúp hình dung sự chuyển hóa năng lượng",
+      "components": [
+        "Cột động năng (Wđ)",
+        "Cột thế năng (Wt)",
+        "Tổng cơ năng (W = const nếu bảo toàn)"
+      ]
+    }
+  }
+}

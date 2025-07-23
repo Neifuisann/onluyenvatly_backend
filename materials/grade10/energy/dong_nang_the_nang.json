@@ -1,0 +1,80 @@
+{
+  "topic": "Động năng và Thế năng",
+  "grade": 10,
+  "category": "Năng lượng",
+  "content": {
+    "kinetic_energy": {
+      "definition": "Động năng là dạng năng lượng mà vật có được do chuyển động",
+      "formula": "Wđ = ½mv²",
+      "variables": {
+        "Wđ": "Động năng (J)",
+        "m": "Khối lượng (kg)",
+        "v": "Vận tốc (m/s)"
+      },
+      "characteristics": [
+        "Luôn có giá trị dương hoặc bằng 0",
+        "Phụ thuộc vào hệ quy chiếu",
+        "Là đại lượng vô hướng"
+      ],
+      "work_energy_theorem": {
+        "statement": "Công của lực tác dụng lên vật bằng độ biến thiên động năng của vật",
+        "formula": "A = ½mv₂² - ½mv₁² = ΔWđ"
+      }
+    },
+    "potential_energy": {
+      "gravitational": {
+        "name": "Thế năng trọng trường",
+        "formula": "Wt = mgz",
+        "variables": {
+          "Wt": "Thế năng trọng trường (J)",
+          "m": "Khối lượng (kg)",
+          "g": "Gia tốc trọng trường ≈ 10 m/s²",
+          "z": "Độ cao so với mốc thế năng (m)"
+        },
+        "characteristics": [
+          "Phụ thuộc vào vị trí mốc thế năng",
+          "Có thể âm, dương hoặc bằng 0",
+          "Là đại lượng vô hướng"
+        ],
+        "work_relation": "Ap = -ΔWt = mg(z₁ - z₂)"
+      },
+      "elastic": {
+        "name": "Thế năng đàn hồi",
+        "formula": "Wđh = ½kx²",
+        "variables": {
+          "Wđh": "Thế năng đàn hồi (J)",
+          "k": "Độ cứng lò xo (N/m)",
+          "x": "Độ biến dạng (m)"
+        },
+        "characteristics": [
+          "Luôn có giá trị dương hoặc bằng 0",
+          "Không phụ thuộc chiều biến dạng",
+          "Mốc thế năng tại vị trí lò xo không biến dạng"
+        ]
+      }
+    },
+    "examples": [
+      {
+        "title": "Viên đạn xuyên gỗ",
+        "problem": "Viên đạn 14g chuyển động với v = 400 m/s xuyên qua tấm gỗ dày 5cm. Vận tốc sau khi xuyên qua là 120 m/s. Tính lực cản trung bình.",
+        "solution": "Áp dụng định lý động năng: A = ½m(v₂² - v₁²)\nFc.s = ½m(v₁² - v₂²)\nFc = ½×0.014×(400² - 120²)/0.05 = 20832 N"
+      },
+      {
+        "title": "Thế năng trọng trường",
+        "problem": "Cần cẩu nâng vật 400kg lên độ cao 25m. Tính công của trọng lực khi hạ vật xuống độ cao 10m.",
+        "solution": "A = mg(h₁ - h₂) = 400×10×(25 - 10) = 60000 J"
+      },
+      {
+        "title": "Thế năng đàn hồi",
+        "problem": "Lò xo có k = 200 N/m bị nén 2cm. Tính thế năng đàn hồi.",
+        "solution": "Wđh = ½kx² = ½×200×(0.02)² = 0.04 J"
+      }
+    ],
+    "energy_transformation": {
+      "free_fall": "Thế năng → Động năng",
+      "pendulum": "Thế năng ⇄ Động năng",
+      "spring_oscillation": "Thế năng đàn hồi ⇄ Động năng",
+      "projectile": "Động năng → Thế năng → Động năng"
+    }
+  }
+}

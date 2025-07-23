@@ -1,0 +1,115 @@
+{
+  "grade": 10,
+  "subject": "Vật lý",
+  "curriculum": "Chương trình Vật lý lớp 10 Việt Nam",
+  "chapters": [
+    {
+      "id": "motion_kinematics",
+      "title": "Chuyển động và Động học",
+      "description": "Mô tả chuyển động của vật",
+      "topics": [
+        {
+          "file": "chuyen_dong_thang_deu.json",
+          "title": "Chuyển động thẳng đều",
+          "subtopics": ["Vận tốc", "Quãng đường", "Phương trình chuyển động", "Đồ thị"]
+        },
+        {
+          "file": "chuyen_dong_bien_doi_deu.json",
+          "title": "Chuyển động thẳng biến đổi đều",
+          "subtopics": ["Gia tốc", "Công thức chuyển động", "Nhanh dần đều", "Chậm dần đều"]
+        },
+        {
+          "file": "roi_tu_do.json",
+          "title": "Sự rơi tự do",
+          "subtopics": ["Gia tốc trọng trường", "Thả rơi", "Ném thẳng đứng"]
+        },
+        {
+          "file": "chuyen_dong_tron_deu.json",
+          "title": "Chuyển động tròn đều",
+          "subtopics": ["Tốc độ góc", "Chu kỳ", "Tần số", "Gia tốc hướng tâm"]
+        }
+      ]
+    },
+    {
+      "id": "forces_dynamics",
+      "title": "Lực và Động lực học",
+      "description": "Nguyên nhân gây ra chuyển động",
+      "topics": [
+        {
+          "file": "luc_va_dinh_luat_newton.json",
+          "title": "Lực và Ba định luật Newton",
+          "subtopics": ["Định luật I Newton", "Định luật II Newton", "Định luật III Newton", "Phương pháp giải"]
+        },
+        {
+          "file": "cac_loai_luc.json",
+          "title": "Các loại lực",
+          "subtopics": ["Trọng lực", "Lực ma sát", "Lực đàn hồi", "Lực hướng tâm", "Lực căng dây"]
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "title": "Năng lượng",
+      "description": "Công, công suất và các dạng năng lượng",
+      "topics": [
+        {
+          "file": "cong_va_cong_suat.json",
+          "title": "Công và Công suất",
+          "subtopics": ["Công cơ học", "Công suất", "Hiệu suất"]
+        },
+        {
+          "file": "dong_nang_the_nang.json",
+          "title": "Động năng và Thế năng",
+          "subtopics": ["Động năng", "Thế năng trọng trường", "Thế năng đàn hồi", "Định lý động năng"]
+        },
+        {
+          "file": "co_nang_bao_toan.json",
+          "title": "Cơ năng và Định luật bảo toàn",
+          "subtopics": ["Cơ năng", "Bảo toàn cơ năng", "Biến đổi năng lượng"]
+        }
+      ]
+    },
+    {
+      "id": "momentum",
+      "title": "Động lượng",
+      "description": "Động lượng và các định luật bảo toàn",
+      "topics": [
+        {
+          "file": "dong_luong_xung_luong.json",
+          "title": "Động lượng và Xung lượng",
+          "subtopics": ["Khái niệm động lượng", "Xung lượng của lực", "Định lý động lượng - xung lượng"]
+        },
+        {
+          "file": "bao_toan_dong_luong.json",
+          "title": "Định luật bảo toàn động lượng",
+          "subtopics": ["Hệ kín", "Bảo toàn động lượng", "Chuyển động phản lực", "Nổ và bắn"]
+        },
+        {
+          "file": "va_cham.json",
+          "title": "Va chạm",
+          "subtopics": ["Va chạm đàn hồi", "Va chạm không đàn hồi", "Va chạm mềm", "Con lắc thử đạn"]
+        }
+      ]
+    }
+  ],
+  "learning_objectives": [
+    "Hiểu và mô tả được các dạng chuyển động cơ bản",
+    "Áp dụng các định luật Newton để giải bài toán động lực học",
+    "Phân tích chuyển hóa năng lượng trong các quá trình vật lý",
+    "Vận dụng định luật bảo toàn động lượng và năng lượng"
+  ],
+  "skills": [
+    "Giải bài tập vật lý",
+    "Vẽ và phân tích đồ thị chuyển động",
+    "Phân tích lực và viết phương trình động lực học",
+    "Áp dụng các định luật bảo toàn"
+  ],
+  "references": [
+    "SGK Vật lý 10 - Bộ Giáo dục và Đào tạo",
+    "Bài tập Vật lý 10 - NXB Giáo dục",
+    "vatlypt.com",
+    "hocmai.vn",
+    "loigiaihay.com",
+    "vietjack.com"
+  ]
+}

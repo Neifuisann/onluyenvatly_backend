@@ -1,0 +1,131 @@
+{
+  "chương": "Dao động cơ",
+  "lớp": 12,
+  "môn": "Vật lý",
+  "nội_dung": {
+    "lý_thuyết": {
+      "tổng_quan": {
+        "tiêu_đề": "Lý thuyết cơ bản chương dao động cơ, vật lí 12",
+        "mô_tả": "Tổng hợp đầy đủ lý thuyết về dao động điều hòa, các loại dao động cơ",
+        "url": "https://vatlypt.com/ly-thuyet-co-ban-chuong-dao-dong-co-vat-li-12.html"
+      },
+      "dao_động_điều_hòa": {
+        "tiêu_đề": "Lý thuyết cơ bản DAO ĐỘNG ĐIỀU HÒA - HOCMAI",
+        "mô_tả": "Chi tiết về phương trình dao động, li độ, vận tốc, gia tốc",
+        "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=616",
+        "công_thức_chính": [
+          "x = Acos(ωt + φ)",
+          "v = -ωAsin(ωt + φ)",
+          "a = -ω²Acos(ωt + φ) = -ω²x"
+        ]
+      },
+      "con_lắc_lò_xo": {
+        "tiêu_đề": "Con lắc lò xo treo thẳng đứng",
+        "mô_tả": "Lý thuyết và công thức cho con lắc lò xo treo thẳng đứng",
+        "url": "https://vatlypt.com/con-lac-lo-xo-treo-thang-dung.html",
+        "công_thức_chính": [
+          "T = 2π√(m/k)",
+          "ω = √(k/m)",
+          "f = 1/(2π)√(k/m)"
+        ]
+      },
+      "con_lắc_đơn": {
+        "tiêu_đề": "Con lắc đơn dao động điều hòa, vật lí 11",
+        "mô_tả": "Lý thuyết về dao động điều hòa, năng lượng, lực căng dây của con lắc đơn",
+        "url": "https://vatlypt.com/con-lac-don-dao-dong-dieu-hoa-vat-li-11.html",
+        "công_thức_chính": [
+          "T = 2π√(l/g)",
+          "ω = √(g/l)",
+          "f = 1/(2π)√(g/l)"
+        ]
+      },
+      "dao_động_tắt_dần_cưỡng_bức": {
+        "tiêu_đề": "Vật lý 12 Bài 4: Dao động tắt dần và dao động cưỡng bức",
+        "mô_tả": "Lý thuyết đầy đủ về dao động tắt dần, dao động cưỡng bức, hiện tượng cộng hưởng",
+        "url": "https://hoc247.net/vat-ly-12/bai-4-dao-dong-tat-dan-va-dao-dong-cuong-buc-l1055.html"
+      }
+    },
+    "công_thức": {
+      "tổng_hợp_đầy_đủ": {
+        "tiêu_đề": "TÓM TẮT CÔNG THỨC VẬT LÍ 12 - HOCMAI",
+        "mô_tả": "Tổng hợp toàn bộ công thức Vật lý 12 theo từng chuyên đề",
+        "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=3118"
+      },
+      "theo_chuyên_đề": {
+        "tiêu_đề": "Tóm tắt công thức Vật Lí 12 theo chuyên đề - HOCMAI",
+        "mô_tả": "Công thức được sắp xếp theo từng chuyên đề riêng biệt",
+        "url": "https://hocmai.vn/kho-tai-lieu/read.php?id=960"
+      },
+      "năng_lượng": {
+        "tiêu_đề": "Công thức Năng lượng con lắc lò xo, vật lí 12",
+        "mô_tả": "Công thức tính động năng, thế năng, cơ năng của con lắc lò xo",
+        "url": "https://vatlypt.com/cong-thuc-nang-luong-con-lac-lo-xo-vat-ly-12.html",
+        "công_thức": [
+          "W = Wđ + Wt = ½kA² = ½mω²A²",
+          "Wđ = ½mv²",
+          "Wt = ½kx²"
+        ]
+      }
+    },
+    "bài_tập": {
+      "con_lắc_lò_xo": {
+        "tiêu_đề": "Bài tập con lắc lò xo dao động điều hòa",
+        "mô_tả": "Bài tập có lời giải chi tiết về con lắc lò xo, tính chu kỳ, tần số, năng lượng",
+        "url": "https://vatlypt.com/bai-tap-con-lac-lo-xo-dao-dong-dieu-hoa-vat-li-11.html"
+      },
+      "dao_động_tắt_dần": {
+        "tiêu_đề": "Bài tập dao động tắt dần, các loại dao động cơ",
+        "mô_tả": "Các dạng bài tập về dao động tắt dần, dao động cưỡng bức có lời giải",
+        "url": "https://vatlypt.com/d/bai-tap-dao-dong-tat-dan-cac-loai-dao-dong-co.t444.html"
+      },
+      "tổng_hợp": {
+        "tiêu_đề": "Vật lí lớp 12 lý thuyết và bài tập vận dụng",
+        "mô_tả": "Tổng hợp lý thuyết và bài tập vận dụng có lời giải",
+        "url": "https://vatlypt.com/vat-li-lop-12-ly-thuyet-va-bai-tap-van-dung.html"
+      }
+    },
+    "trắc_nghiệm": {
+      "con_lắc_lò_xo": {
+        "tiêu_đề": "Trong dao động điều hòa của con lắc lò xo, phát biểu nào sau đây là không đúng?",
+        "mô_tả": "Câu hỏi trắc nghiệm có đáp án và lời giải chi tiết về con lắc lò xo",
+        "url": "https://moon.vn/hoi-dap/trong-dao-dong-dieu-hoa-cua-con-lac-lo-xo-phat-bieu-nao-sau-day-la-khong-dung-354837"
+      },
+      "lý_thuyết": {
+        "tiêu_đề": "Trắc nghiệm lý thuyết vật lí 12",
+        "mô_tả": "Bộ câu hỏi trắc nghiệm lý thuyết toàn bộ chương trình Vật lý 12",
+        "url": "https://vatlypt.com/trac-nghiem-ly-thuyet-vat-li-12.html"
+      },
+      "năng_lượng": {
+        "tiêu_đề": "Đại lượng nào sau đây tăng gấp đôi khi tăng gấp đôi biên độ dao động điều hòa?",
+        "mô_tả": "Câu hỏi trắc nghiệm về mối quan hệ giữa biên độ và các đại lượng khác",
+        "url": "https://moon.vn/hoi-dap/dai-luong-nao-sau-day-tang-gap-doi-khi-tang-gap-doi-bien-do-dao-dong-dieu-hoa-cua-co-10487065"
+      }
+    },
+    "video_bài_giảng": {
+      "dao_động_điều_hòa": {
+        "tiêu_đề": "Video Đại cương về dao động điều hòa",
+        "mô_tả": "Video bài giảng chi tiết về dao động điều hòa",
+        "url": "https://tuyensinh247.com/bai-giang-dai-cuong-ve-dao-dong-dieu-hoa-v38761.html"
+      },
+      "dao_động_tắt_dần": {
+        "tiêu_đề": "Bài 44. Dao động tắt dần, dao động duy trì, dao động cưỡng bức, cộng hưởng",
+        "mô_tả": "Video bài giảng dài 23 phút về các loại dao động đặc biệt",
+        "thời_lượng": "23 phút",
+        "nền_tảng": "Tuyensinh247.com"
+      },
+      "bài_tập": {
+        "tiêu_đề": "Bài 46. Một số dạng bài tập điển hình về dao động tắt dần",
+        "mô_tả": "Video dài 45 phút hướng dẫn giải các dạng bài tập về dao động tắt dần",
+        "thời_lượng": "45 phút",
+        "nền_tảng": "Tuyensinh247.com"
+      }
+    },
+    "điểm_chính_cần_nhớ": [
+      "Dao động điều hòa: x = Acos(ωt + φ), với ω = 2πf = 2π/T",
+      "Con lắc lò xo: T = 2π√(m/k), ω = √(k/m)",
+      "Con lắc đơn: T = 2π√(l/g) (với dao động nhỏ)",
+      "Năng lượng: W = Wđ + Wt = ½kA² = ½mω²A²",
+      "Cộng hưởng: Xảy ra khi f_ngoại lực = f_riêng của hệ"
+    ]
+  }
+}

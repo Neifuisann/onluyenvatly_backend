@@ -1,0 +1,191 @@
+{
+  "subject": "Vật lý 11",
+  "topic": "Dòng điện",
+  "sections": [
+    {
+      "id": "ly-thuyet",
+      "title": "Lý thuyết cơ bản",
+      "subtopics": [
+        {
+          "title": "Dòng điện không đổi",
+          "content": {
+            "definition": "Dòng điện không đổi là dòng điện có chiều và cường độ không thay đổi theo thời gian",
+            "cuong_do_dong_dien": {
+              "formula": "I = q/t",
+              "unit": "Ampe (A)",
+              "parameters": {
+                "I": "Cường độ dòng điện (Ampe)",
+                "q": "Điện lượng (Coulomb)",
+                "t": "Thời gian (giây)"
+              }
+            }
+          }
+        },
+        {
+          "title": "Định luật Ohm",
+          "content": {
+            "formula": "I = U/R",
+            "dien_tro": "R = U/I (Ω)",
+            "dien_tro_nhiet_do": "ρ = ρ₀[1 + α(t – t₀)]"
+          }
+        },
+        {
+          "title": "Định luật Joule-Lenz",
+          "content": {
+            "formula": "Q = I²Rt",
+            "meaning": "Nhiệt lượng tỏa ra tỉ lệ thuận với bình phương cường độ dòng điện, điện trở và thời gian"
+          }
+        },
+        {
+          "title": "Nguồn điện và suất điện động",
+          "content": {
+            "suat_dien_dong": "ℰ = A/q",
+            "dinh_luat_ohm_toan_mach": {
+              "formula": "E = I(R + r)",
+              "parameters": {
+                "E": "Suất điện động nguồn",
+                "r": "Điện trở trong",
+                "R": "Điện trở mạch ngoài"
+              }
+            }
+          }
+        },
+        {
+          "title": "Công và công suất điện",
+          "content": {
+            "cong": "A = UIt",
+            "cong_suat": "P = UI = I²R = U²/R"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dong-dien-cac-moi-truong",
+      "title": "Dòng điện trong các môi trường",
+      "environments": [
+        {
+          "title": "Dòng điện trong kim loại",
+          "content": {
+            "nature": "Dòng chuyển dời có hướng của các electron tự do",
+            "property": "Điện trở phụ thuộc nhiệt độ"
+          }
+        },
+        {
+          "title": "Dòng điện trong chất điện phân",
+          "content": {
+            "nature": "Dòng ion dương và ion âm chuyển động ngược chiều",
+            "faraday_law": "m = (1/F) × (A/n) × It"
+          }
+        },
+        {
+          "title": "Dòng điện trong chất khí",
+          "content": {
+            "condition": "Chỉ dẫn điện khi bị ion hóa",
+            "phenomena": ["Hồ quang điện", "Tia lửa điện"]
+          }
+        },
+        {
+          "title": "Dòng điện trong chân không",
+          "content": {
+            "nature": "Dòng electron bứt ra từ catot nóng",
+            "applications": ["Đèn điện tử", "Ống tia catot"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dang-bai-tap",
+      "title": "Các dạng bài tập thường gặp",
+      "types": [
+        {
+          "category": "Bài tập trắc nghiệm",
+          "topics": [
+            "Đại cương về dòng điện không đổi",
+            "Định luật Ohm cho đoạn mạch",
+            "Ghép điện trở (nối tiếp, song song, hỗn hợp)",
+            "Công suất và điện năng tiêu thụ",
+            "Định luật Ohm cho toàn mạch"
+          ]
+        },
+        {
+          "category": "Bài tập tự luận",
+          "topics": [
+            "Tính điện trở tương đương",
+            "Tìm cường độ dòng điện trong mạch",
+            "Tính công suất tiêu thụ",
+            "Bài toán về nguồn điện ghép",
+            "Tính tiền điện trong thực tế"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tai-lieu",
+      "title": "Nguồn tài liệu tham khảo",
+      "resources": [
+        {
+          "type": "website",
+          "items": [
+            {
+              "name": "VUIHOC.vn",
+              "description": "Tổng hợp kiến thức theo chương trình mới, có bài tập và lời giải"
+            },
+            {
+              "name": "VietJack.com",
+              "description": "9 dạng bài tập chọn lọc có lời giải chi tiết"
+            },
+            {
+              "name": "Loigiaihay.com",
+              "description": "Bài tập trắc nghiệm và tự luận theo từng bài"
+            },
+            {
+              "name": "Thuvienhoclieu.com",
+              "description": "File word bài tập có đáp án"
+            }
+          ]
+        },
+        {
+          "type": "pdf",
+          "items": [
+            {
+              "name": "Thuvienvatly.com",
+              "description": "Giáo án điện tử và bài giảng PowerPoint"
+            },
+            {
+              "name": "Scribd.com",
+              "description": "Bộ công thức Vật lý 11 của Thầy Dĩ Thâm"
+            },
+            {
+              "name": "Tailieu.vn",
+              "description": "Bài tập trắc nghiệm chương Dòng điện trong các môi trường"
+            }
+          ]
+        },
+        {
+          "type": "bai-giang-dien-tu",
+          "items": [
+            {
+              "name": "Kenhgiaovien.com",
+              "description": "Giáo án PowerPoint và word"
+            },
+            {
+              "name": "Violet.vn",
+              "description": "Chuyên đề lý thuyết + bài tập có đáp án"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phuong-phap-hoc",
+      "title": "Đề xuất cách học hiệu quả",
+      "methods": [
+        "Nắm vững lý thuyết: Đọc kỹ các công thức và hiểu bản chất vật lý",
+        "Làm bài tập từ dễ đến khó: Bắt đầu với trắc nghiệm cơ bản",
+        "Sử dụng tài liệu online: Tận dụng các website có lời giải chi tiết",
+        "Xem video bài giảng: Giúp hiểu sâu hơn các khái niệm khó",
+        "Luyện đề thi: Làm các đề kiểm tra để chuẩn bị tốt cho kỳ thi"
+      ]
+    }
+  ]
+}

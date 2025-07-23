@@ -1,0 +1,83 @@
+{
+  "topic": "Chuyển động thẳng biến đổi đều",
+  "grade": 10,
+  "category": "Chuyển động và Động học",
+  "content": {
+    "definition": "Chuyển động có quỹ đạo là đường thẳng và độ lớn vận tốc tức thời tăng/giảm đều theo thời gian.",
+    "formulas": [
+      {
+        "name": "Gia tốc",
+        "formula": "a = (v - v₀)/(t - t₀)",
+        "variables": {
+          "a": "gia tốc (m/s²)",
+          "v": "vận tốc cuối",
+          "v₀": "vận tốc đầu",
+          "t": "thời gian"
+        }
+      },
+      {
+        "name": "Vận tốc",
+        "formula": "v = v₀ + at",
+        "variables": {
+          "v": "vận tốc tại thời điểm t",
+          "v₀": "vận tốc ban đầu",
+          "a": "gia tốc",
+          "t": "thời gian"
+        }
+      },
+      {
+        "name": "Quãng đường",
+        "formula": "s = v₀t + ½at²",
+        "variables": {
+          "s": "quãng đường",
+          "v₀": "vận tốc ban đầu",
+          "a": "gia tốc",
+          "t": "thời gian"
+        }
+      },
+      {
+        "name": "Liên hệ v, a, s",
+        "formula": "v² - v₀² = 2as",
+        "variables": {
+          "v": "vận tốc cuối",
+          "v₀": "vận tốc đầu",
+          "a": "gia tốc",
+          "s": "quãng đường"
+        }
+      },
+      {
+        "name": "Phương trình chuyển động",
+        "formula": "x = x₀ + v₀t + ½at²",
+        "variables": {
+          "x": "tọa độ tại thời điểm t",
+          "x₀": "tọa độ ban đầu",
+          "v₀": "vận tốc ban đầu",
+          "a": "gia tốc",
+          "t": "thời gian"
+        }
+      }
+    ],
+    "classification": {
+      "nhanh_dan_deu": {
+        "condition": "a.v > 0",
+        "description": "Gia tốc cùng chiều vận tốc"
+      },
+      "cham_dan_deu": {
+        "condition": "a.v < 0",
+        "description": "Gia tốc ngược chiều vận tốc"
+      }
+    },
+    "examples": [
+      {
+        "title": "Tàu hãm phanh",
+        "problem": "Một đoàn tàu chuyển động với v₀ = 72 km/h thì hãm phanh chuyển động chậm dần đều, sau 10s đạt v₁ = 54 km/h. Tìm thời gian để tàu dừng hẳn.",
+        "solution": "Đổi đơn vị: v₀ = 20 m/s, v₁ = 15 m/s\nTính gia tốc: a = (15-20)/10 = -0.5 m/s²\nThời gian dừng: t = (0-20)/(-0.5) = 40s"
+      }
+    ],
+    "graphs": {
+      "position_time": "Parabol",
+      "velocity_time": "Đường thẳng xiên",
+      "acceleration_time": "Đường thẳng ngang"
+    }
+  }
+}

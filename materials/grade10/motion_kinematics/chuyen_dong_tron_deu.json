@@ -1,0 +1,78 @@
+{
+  "topic": "Chuyển động tròn đều",
+  "grade": 10,
+  "category": "Chuyển động và Động học",
+  "content": {
+    "definition": "Chuyển động có quỹ đạo tròn với tốc độ không đổi.",
+    "parameters": {
+      "angular_velocity": {
+        "name": "Tốc độ góc",
+        "symbol": "ω",
+        "formula": "ω = Δα/Δt",
+        "unit": "rad/s",
+        "relation": "ω = 2π/T = 2πf"
+      },
+      "linear_velocity": {
+        "name": "Tốc độ dài",
+        "symbol": "v",
+        "formula": "v = rω",
+        "unit": "m/s"
+      },
+      "period": {
+        "name": "Chu kỳ",
+        "symbol": "T",
+        "definition": "Thời gian thực hiện 1 vòng",
+        "unit": "s"
+      },
+      "frequency": {
+        "name": "Tần số",
+        "symbol": "f",
+        "formula": "f = 1/T",
+        "unit": "Hz"
+      },
+      "centripetal_acceleration": {
+        "name": "Gia tốc hướng tâm",
+        "symbol": "aht",
+        "formula": "aht = v²/r = ω²r",
+        "unit": "m/s²",
+        "direction": "Hướng vào tâm quỹ đạo"
+      }
+    },
+    "formulas": [
+      {
+        "name": "Liên hệ v và ω",
+        "formula": "v = rω"
+      },
+      {
+        "name": "Liên hệ ω, T, f",
+        "formula": "ω = 2π/T = 2πf"
+      },
+      {
+        "name": "Gia tốc hướng tâm",
+        "formula": "aht = v²/r = ω²r = 4π²f²r"
+      },
+      {
+        "name": "Lực hướng tâm",
+        "formula": "Fht = maht = mv²/r = mω²r"
+      }
+    ],
+    "examples": [
+      {
+        "title": "Tính các đại lượng cơ bản",
+        "problem": "Một vật chuyển động tròn đều với bán kính 0.5m, chu kỳ 2s. Tính tốc độ góc, tốc độ dài và gia tốc hướng tâm.",
+        "solution": "ω = 2π/T = 2π/2 = π rad/s\nv = rω = 0.5×π = 1.57 m/s\naht = ω²r = π²×0.5 = 4.93 m/s²"
+      },
+      {
+        "title": "Kim đồng hồ",
+        "problem": "Kim phút dài 10cm. Tính tốc độ dài của đầu kim phút.",
+        "solution": "T = 60 phút = 3600s\nω = 2π/3600 = π/1800 rad/s\nv = rω = 0.1×π/1800 = 1.74×10⁻⁴ m/s"
+      }
+    ],
+    "applications": [
+      "Chuyển động của kim đồng hồ",
+      "Chuyển động của bánh xe",
+      "Chuyển động của vệ tinh quanh Trái Đất",
+      "Chuyển động của electron quanh hạt nhân"
+    ]
+  }
+}

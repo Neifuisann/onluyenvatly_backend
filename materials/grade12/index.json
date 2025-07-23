@@ -1,0 +1,105 @@
+{
+  "lớp": 12,
+  "môn": "Vật lý",
+  "chương_trình": {
+    "mô_tả": "Chương trình Vật lý lớp 12 theo chuẩn Bộ Giáo dục và Đào tạo Việt Nam",
+    "sách_giáo_khoa": [
+      "Kết nối tri thức",
+      "Chân trời sáng tạo", 
+      "Cánh diều"
+    ]
+  },
+  "danh_sách_chương": [
+    {
+      "số_thứ_tự": 1,
+      "tên": "Dao động cơ",
+      "folder": "dao-dong-co",
+      "nội_dung_chính": [
+        "Dao động điều hòa",
+        "Con lắc lò xo",
+        "Con lắc đơn",
+        "Dao động tắt dần, dao động cưỡng bức"
+      ]
+    },
+    {
+      "số_thứ_tự": 2,
+      "tên": "Sóng cơ và sóng âm",
+      "folder": "song-co-song-am",
+      "nội_dung_chính": [
+        "Sóng cơ và sự truyền sóng",
+        "Giao thoa sóng",
+        "Sóng dừng",
+        "Sóng âm"
+      ]
+    },
+    {
+      "số_thứ_tự": 3,
+      "tên": "Điện xoay chiều",
+      "folder": "dien-xoay-chieu",
+      "nội_dung_chính": [
+        "Đại cương về dòng điện xoay chiều",
+        "Các mạch điện xoay chiều",
+        "Công suất điện",
+        "Máy biến áp và truyền tải điện năng"
+      ]
+    },
+    {
+      "số_thứ_tự": 4,
+      "tên": "Dao động điện từ",
+      "folder": "dao-dong-dien-tu",
+      "nội_dung_chính": [
+        "Mạch dao động LC",
+        "Điện từ trường",
+        "Sóng điện từ"
+      ]
+    },
+    {
+      "số_thứ_tự": 5,
+      "tên": "Sóng ánh sáng", 
+      "folder": "song-anh-sang",
+      "nội_dung_chính": [
+        "Tán sắc ánh sáng",
+        "Giao thoa ánh sáng",
+        "Quang phổ"
+      ]
+    },
+    {
+      "số_thứ_tự": 6,
+      "tên": "Lượng tử ánh sáng",
+      "folder": "luong-tu-anh-sang",
+      "nội_dung_chính": [
+        "Hiện tượng quang điện",
+        "Thuyết lượng tử ánh sáng",
+        "Laze"
+      ]
+    },
+    {
+      "số_thứ_tự": 7,
+      "tên": "Hạt nhân nguyên tử",
+      "folder": "hat-nhan-nguyen-tu",
+      "nội_dung_chính": [
+        "Tính chất và cấu tạo hạt nhân",
+        "Năng lượng liên kết",
+        "Phóng xạ",
+        "Phản ứng hạt nhân"
+      ]
+    }
+  ],
+  "tài_liệu_bổ_sung": [
+    {
+      "tên": "Tổng ôn lý thuyết",
+      "folder": "tong-on-ly-thuyet",
+      "mô_tả": "Tổng hợp lý thuyết và công thức toàn chương trình"
+    },
+    {
+      "tên": "Tự học vật lí online",
+      "folder": "tu-hoc-online",
+      "mô_tả": "Danh sách các website và khóa học online"
+    }
+  ],
+  "mục_tiêu": {
+    "kiến_thức": "Nắm vững kiến thức vật lý cơ bản và nâng cao lớp 12",
+    "kỹ_năng": "Giải quyết các dạng bài tập từ cơ bản đến phức tạp",
+    "ôn_thi": "Chuẩn bị cho kỳ thi THPT Quốc gia môn Vật lý"
+  }
+}

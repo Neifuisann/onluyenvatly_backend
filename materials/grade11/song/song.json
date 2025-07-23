@@ -1,0 +1,162 @@
+{
+  "subject": "Vật lý 11",
+  "topic": "Sóng",
+  "sections": [
+    {
+      "id": "ly-thuyet",
+      "title": "Lý thuyết sóng cơ",
+      "subtopics": [
+        {
+          "title": "Khái niệm sóng cơ",
+          "content": {
+            "definition": "Sóng cơ là dao động cơ lan truyền trong môi trường vật chất (rắn, lỏng, khí)",
+            "properties": [
+              "Sóng cơ không truyền được trong chân không",
+              "Khi sóng truyền đi, các phần tử vật chất chỉ dao động tại chỗ, không truyền đi theo sóng"
+            ],
+            "types": {
+              "song_ngang": "Phương dao động vuông góc với phương truyền sóng",
+              "song_doc": "Phương dao động trùng với phương truyền sóng"
+            }
+          }
+        },
+        {
+          "title": "Các đại lượng đặc trưng",
+          "content": {
+            "chu_ky": "T - Thời gian để sóng truyền đi được một bước sóng",
+            "tan_so": "f = 1/T - Số dao động trong một giây",
+            "buoc_song": "λ - Khoảng cách giữa hai điểm gần nhất dao động cùng pha",
+            "van_toc": "v = λ.f = λ/T"
+          }
+        },
+        {
+          "title": "Sóng âm",
+          "content": {
+            "classification": {
+              "ha_am": "f < 16 Hz (tai người không nghe được)",
+              "am_nghe_duoc": "16 Hz ≤ f ≤ 20.000 Hz",
+              "sieu_am": "f > 20.000 Hz (tai người không nghe được)"
+            },
+            "properties": {
+              "tan_so": "Quyết định độ cao của âm",
+              "cuong_do_am": "I = P/(4πr²)",
+              "muc_cuong_do_am": "L(dB) = 10.log(I/I₀), với I₀ = 10⁻¹² W/m²"
+            },
+            "velocity": {
+              "rule": "v(rắn) > v(lỏng) > v(khí)",
+              "air_0C": "v ≈ 330 m/s"
+            }
+          }
+        },
+        {
+          "title": "Giao thoa sóng",
+          "content": {
+            "condition": "Hai nguồn phải là nguồn kết hợp (cùng tần số, độ lệch pha không đổi)",
+            "patterns": {
+              "cuc_dai": "Hiệu đường đi = kλ (k = 0, ±1, ±2,...)",
+              "cuc_tieu": "Hiệu đường đi = (k + 0,5)λ"
+            }
+          }
+        },
+        {
+          "title": "Sóng dừng",
+          "content": {
+            "hai_dau_co_dinh": {
+              "condition": "L = n.λ/2 (n = 1, 2, 3,...)",
+              "so_bung": "n",
+              "so_nut": "n + 1"
+            },
+            "mot_dau_co_dinh": {
+              "condition": "L = (2n-1).λ/4 (n = 1, 2, 3,...)",
+              "so_bung": "n",
+              "so_nut": "n"
+            },
+            "distances": {
+              "nut_nut": "λ/2",
+              "nut_bung": "λ/4"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cong-thuc",
+      "title": "Công thức quan trọng",
+      "formulas": [
+        "v = λ.f = λ/T",
+        "λ = v.T = v/f",
+        "Độ lệch pha: Δφ = 2πd/λ",
+        "Thời gian truyền sóng: t = d/v",
+        "Cường độ sóng: I = P/S = P/(4πr²)"
+      ]
+    },
+    {
+      "id": "bai-tap",
+      "title": "Bài tập mẫu",
+      "examples": [
+        {
+          "title": "Sóng cơ bản",
+          "problem": "Một sóng cơ có tần số 50 Hz, vận tốc truyền sóng 200 m/s. Tính bước sóng.",
+          "solution": "λ = v/f = 200/50 = 4 m"
+        },
+        {
+          "title": "Sóng dừng",
+          "problem": "Trên dây AB dài 100 cm có sóng dừng với 2 đầu cố định, tần số 20 Hz. Tốc độ truyền sóng là 20 m/s. Tìm số bụng sóng.",
+          "solution": "λ = v/f = 20/20 = 1 m = 100 cm\nL = n.λ/2 ⟹ 100 = n.100/2 ⟹ n = 2\nVậy có 2 bụng sóng."
+        }
+      ]
+    },
+    {
+      "id": "tai-lieu",
+      "title": "Nguồn tài liệu tham khảo",
+      "resources": [
+        {
+          "type": "sgk",
+          "items": [
+            "SGK Vật lý 11 - Kết nối tri thức",
+            "SGK Vật lý 11 - Chân trời sáng tạo",
+            "SGK Vật lý 11 - Cánh diều"
+          ]
+        },
+        {
+          "type": "website",
+          "items": [
+            {
+              "name": "VietJack.com",
+              "description": "Lý thuyết và bài tập chi tiết theo từng bài"
+            },
+            {
+              "name": "Loigiaihay.com",
+              "description": "Giải bài tập SGK và SBT đầy đủ"
+            },
+            {
+              "name": "VuiHoc.vn",
+              "description": "Tổng hợp kiến thức và bài tập nâng cao"
+            },
+            {
+              "name": "Tech12h.com",
+              "description": "Trắc nghiệm online có đáp án"
+            },
+            {
+              "name": "Thuvienvatly.com",
+              "description": "File word tóm tắt công thức và bài tập"
+            }
+          ]
+        },
+        {
+          "type": "khoa-hoc",
+          "items": [
+            {
+              "name": "HOCMAI",
+              "description": "Khóa học Vật lý 11 với Thầy Phạm Văn Tùng"
+            },
+            {
+              "name": "Lythayquan.vn",
+              "description": "Học thử Vật lý 11 miễn phí với Thầy Vũ Hoàng Quân"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

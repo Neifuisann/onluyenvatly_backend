@@ -1,0 +1,82 @@
+{
+  "topic": "Công và Công suất",
+  "grade": 10,
+  "category": "Năng lượng",
+  "content": {
+    "work": {
+      "definition": "Khi lực F không đổi tác dụng lên một vật và điểm đặt của lực đó chuyển dời một đoạn s theo hướng hợp với hướng của lực góc α thì công thực hiện bởi lực đó được tính theo công thức",
+      "formula": "A = F.s.cosα",
+      "variables": {
+        "A": "Công (J)",
+        "F": "Độ lớn lực tác dụng (N)",
+        "s": "Quãng đường dịch chuyển (m)",
+        "α": "Góc giữa hướng lực và hướng chuyển động"
+      },
+      "classification": {
+        "positive_work": {
+          "condition": "0° ≤ α < 90°",
+          "name": "Công phát động",
+          "meaning": "Lực tác dụng cùng chiều chuyển động"
+        },
+        "zero_work": {
+          "condition": "α = 90°",
+          "name": "Lực không sinh công",
+          "meaning": "Lực vuông góc với chuyển động"
+        },
+        "negative_work": {
+          "condition": "90° < α ≤ 180°",
+          "name": "Công cản",
+          "meaning": "Lực tác dụng ngược chiều chuyển động"
+        }
+      },
+      "unit": "Jun (J), 1J = 1N.m"
+    },
+    "power": {
+      "definition": "Công suất biểu thị tốc độ thực hiện công, là công sinh ra trong một đơn vị thời gian",
+      "formulas": {
+        "average_power": "P = A/t",
+        "instantaneous_power": "P = F.v",
+        "with_angle": "P = F.v.cosα"
+      },
+      "variables": {
+        "P": "Công suất (W)",
+        "A": "Công thực hiện (J)",
+        "t": "Thời gian (s)",
+        "v": "Vận tốc (m/s)"
+      },
+      "unit": "Watt (W), 1W = 1J/s",
+      "other_units": {
+        "kilowatt": "1kW = 1000W",
+        "horsepower": "1HP = 746W",
+        "megawatt": "1MW = 10⁶W"
+      }
+    },
+    "efficiency": {
+      "definition": "Tỉ số giữa công có ích và công toàn phần",
+      "formula": "H = (Aci/Atp) × 100% = (Pci/Ptp) × 100%",
+      "always": "H < 100% (do có công hao phí)"
+    },
+    "examples": [
+      {
+        "title": "Kéo vật trên mặt phẳng",
+        "problem": "Kéo vật 50kg di chuyển 10m trên mặt phẳng ngang với lực 200N hợp góc 30° với phương ngang. Tính công của lực kéo.",
+        "solution": "A = F.s.cos30° = 200×10×0.866 = 1732 J"
+      },
+      {
+        "title": "Công suất động cơ",
+        "problem": "Động cơ nâng vật 100kg lên cao 20m trong 10s. Tính công suất.",
+        "solution": "A = P.h = mgh = 100×10×20 = 20000 J\nP = A/t = 20000/10 = 2000 W = 2 kW"
+      },
+      {
+        "title": "Hiệu suất máy",
+        "problem": "Động cơ công suất 5kW kéo vật 12kN lên cao 30m trong 90s. Tính hiệu suất.",
+        "solution": "Aci = P.h = 12000×30 = 360000 J\nAtp = P.t = 5000×90 = 450000 J\nH = (360000/450000)×100% = 80%"
+      }
+    ],
+    "special_cases": {
+      "gravity_work": "A = ±mgh (+ khi vật đi xuống, - khi vật đi lên)",
+      "friction_work": "A = -Fms.s (luôn âm)",
+      "elastic_work": "A = ½k(x₁² - x₂²)"
+    }
+  }
+}

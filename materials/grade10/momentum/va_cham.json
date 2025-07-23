@@ -1,0 +1,84 @@
+{
+  "topic": "Va chạm đàn hồi và không đàn hồi",
+  "grade": 10,
+  "category": "Động lượng",
+  "content": {
+    "collision_types": {
+      "elastic_collision": {
+        "name": "Va chạm đàn hồi",
+        "characteristics": [
+          "Động lượng được bảo toàn",
+          "Động năng được bảo toàn",
+          "Không có sự biến đổi động năng thành các dạng năng lượng khác",
+          "Các vật tách rời nhau sau va chạm"
+        ],
+        "equations": {
+          "momentum": "m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'",
+          "kinetic_energy": "½m₁v₁² + ½m₂v₂² = ½m₁v₁'² + ½m₂v₂'²"
+        },
+        "special_cases": {
+          "equal_masses": {
+            "condition": "m₁ = m₂",
+            "result": "Hai vật trao đổi vận tốc: v₁' = v₂, v₂' = v₁"
+          },
+          "target_at_rest": {
+            "condition": "v₂ = 0",
+            "formulas": {
+              "v1_prime": "v₁' = (m₁ - m₂)v₁/(m₁ + m₂)",
+              "v2_prime": "v₂' = 2m₁v₁/(m₁ + m₂)"
+            }
+          }
+        }
+      },
+      "inelastic_collision": {
+        "name": "Va chạm không đàn hồi (va chạm mềm)",
+        "characteristics": [
+          "Chỉ động lượng được bảo toàn",
+          "Động năng không được bảo toàn",
+          "Một phần động năng chuyển thành nhiệt, âm thanh, biến dạng",
+          "Sau va chạm hai vật dính vào nhau (va chạm mềm hoàn toàn)"
+        ],
+        "equation": "m₁v₁ + m₂v₂ = (m₁ + m₂)V",
+        "common_velocity": "V = (m₁v₁ + m₂v₂)/(m₁ + m₂)",
+        "energy_loss": "ΔWđ = ½m₁v₁² + ½m₂v₂² - ½(m₁ + m₂)V²"
+      },
+      "partially_inelastic": {
+        "name": "Va chạm không đàn hồi một phần",
+        "characteristics": [
+          "Động lượng được bảo toàn",
+          "Động năng giảm nhưng vật vẫn tách rời",
+          "Hệ số phục hồi e: 0 < e < 1"
+        ],
+        "coefficient_of_restitution": "e = |v₂' - v₁'|/|v₂ - v₁|"
+      }
+    },
+    "examples": [
+      {
+        "title": "Va chạm đàn hồi cùng khối lượng",
+        "problem": "Hai viên bi giống nhau, bi 1 chuyển động với v = 5m/s đến va chạm với bi 2 đứng yên. Tính vận tốc sau va chạm.",
+        "solution": "Do m₁ = m₂ và v₂ = 0\nSau va chạm: v₁' = 0, v₂' = 5m/s\nHai viên bi trao đổi vận tốc"
+      },
+      {
+        "title": "Va chạm mềm ô tô",
+        "problem": "Ô tô 5 tấn với v = 4m/s tông vào xe máy 250kg đứng yên. Sau va chạm dính nhau. Tính vận tốc và năng lượng mất đi.",
+        "solution": "V = (m₁v₁ + m₂v₂)/(m₁ + m₂) = 5000×4/(5000+250) = 3.81 m/s\nWđ_trước = ½×5000×4² = 40000 J\nWđ_sau = ½×5250×3.81² = 38095 J\nΔW = 40000 - 38095 = 1905 J"
+      },
+      {
+        "title": "Con lắc thử đạn",
+        "problem": "Bắn viên đạn 10g vào túi cát 1kg treo. Sau va chạm, túi cát được nâng lên 0.8m. Tìm vận tốc đạn.",
+        "solution": "Va chạm mềm: mv = (m + M)V\nBảo toàn cơ năng: ½(m + M)V² = (m + M)gh\nV = √(2gh) = √(2×10×0.8) = 4 m/s\nv = (m + M)V/m = 1.01×4/0.01 = 404 m/s"
+      },
+      {
+        "title": "Va chạm hai chiều",
+        "problem": "Bi 1 (200g) chuyển động với v = 3m/s theo hướng Đông va chạm với bi 2 (300g) chuyển động 2m/s theo hướng Bắc. Sau va chạm dính nhau. Tìm vận tốc sau va chạm.",
+        "solution": "Chiếu lên Ox (Đông): (m₁+m₂)Vₓ = m₁v₁ = 0.2×3 = 0.6\nVₓ = 0.6/0.5 = 1.2 m/s\nChiếu lên Oy (Bắc): (m₁+m₂)Vy = m₂v₂ = 0.3×2 = 0.6\nVy = 0.6/0.5 = 1.2 m/s\nV = √(Vₓ² + Vy²) = 1.7 m/s, góc 45° với hướng Đông"
+      }
+    ],
+    "practical_applications": {
+      "billiards": "Trò chơi bi-a sử dụng va chạm đàn hồi",
+      "car_safety": "Vùng biến dạng ô tô tạo va chạm không đàn hồi để giảm lực",
+      "newton_cradle": "Con lắc Newton minh họa bảo toàn động lượng và năng lượng",
+      "meteor_impact": "Va chạm không đàn hồi của thiên thạch"
+    }
+  }
+}

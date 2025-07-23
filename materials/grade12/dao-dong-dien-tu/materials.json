@@ -1,0 +1,33 @@
+{
+  "chương": "Dao động điện từ",
+  "lớp": 12,
+  "môn": "Vật lý",
+  "nội_dung": {
+    "lý_thuyết": {
+      "mạch_dao_động_LC": {
+        "mô_tả": "Tụ điện (C) nối với cuộn cảm (L)",
+        "phương_trình_dao_động": "q = q₀cos(ωt + φ) với ω = 1/√(LC)",
+        "điện_từ_trường": "Điện trường và từ trường biến thiên"
+      },
+      "công_thức_quan_trọng": {
+        "tần_số_góc": "ω = 1/√(LC)",
+        "chu_kỳ": "T = 2π√(LC)",
+        "tần_số": "f = 1/(2π√(LC))"
+      }
+    },
+    "tài_liệu": {
+      "thư_viện_học_liệu": {
+        "nguồn": "ThưViệnHọcLiệu.com",
+        "nội_dung": "60-150 câu trắc nghiệm có đáp án"
+      },
+      "vndoc": {
+        "nguồn": "VnDoc.com",
+        "nội_dung": "Lý thuyết và bài tập đầy đủ"
+      },
+      "vietjack": {
+        "nguồn": "VietJack.com",
+        "nội_dung": "100 câu trắc nghiệm chương 4"
+      }
+    }
+  }
+}

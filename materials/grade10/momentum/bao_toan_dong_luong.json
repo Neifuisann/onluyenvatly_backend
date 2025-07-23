@@ -1,0 +1,79 @@
+{
+  "topic": "Định luật bảo toàn động lượng",
+  "grade": 10,
+  "category": "Động lượng",
+  "content": {
+    "closed_system": {
+      "definition": "Một hệ gồm nhiều vật được gọi là hệ kín khi không có ngoại lực tác dụng lên hệ hoặc nếu có thì các lực ấy cân bằng nhau",
+      "characteristics": [
+        "Chỉ có các nội lực tương tác giữa các vật",
+        "Tổng ngoại lực bằng 0",
+        "Ví dụ: hệ súng-đạn, va chạm trong thời gian ngắn"
+      ]
+    },
+    "conservation_law": {
+      "statement": "Tổng động lượng của hệ kín được bảo toàn",
+      "mathematical_form": "p⃗₁ + p⃗₂ + ... = p⃗₁' + p⃗₂' + ...",
+      "for_two_objects": "m₁v⃗₁ + m₂v⃗₂ = m₁v⃗₁' + m₂v⃗₂'",
+      "scalar_form": {
+        "one_dimension": "m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'",
+        "two_dimensions": {
+          "x_axis": "m₁v₁ₓ + m₂v₂ₓ = m₁v₁ₓ' + m₂v₂ₓ'",
+          "y_axis": "m₁v₁y + m₂v₂y = m₁v₁y' + m₂v₂y'"
+        }
+      }
+    },
+    "special_cases": {
+      "recoil_motion": {
+        "description": "Chuyển động bằng phản lực",
+        "formula": "m.v = m₁v₁ + m₂v₂",
+        "examples": [
+          "Súng giật khi bắn",
+          "Tên lửa phóng",
+          "Người nhảy khỏi thuyền"
+        ]
+      },
+      "explosion": {
+        "description": "Vật nổ thành nhiều mảnh",
+        "principle": "Tổng động lượng trước nổ = Tổng động lượng sau nổ",
+        "note": "Thường vật ban đầu đứng yên → p⃗ = 0"
+      }
+    },
+    "problem_solving_method": [
+      "Xác định hệ kín",
+      "Chọn hệ quy chiếu (chiều dương)",
+      "Viết biểu thức động lượng trước và sau",
+      "Áp dụng định luật bảo toàn động lượng",
+      "Chiếu lên các trục tọa độ nếu cần",
+      "Giải hệ phương trình"
+    ],
+    "examples": [
+      {
+        "title": "Súng giật",
+        "problem": "Súng 5kg bắn viên đạn 10g với vận tốc 600m/s. Tính vận tốc giật của súng.",
+        "solution": "Hệ súng-đạn là hệ kín\nBan đầu: p = 0\nSau bắn: mđvđ + msvs = 0\nvs = -mđvđ/ms = -0.01×600/5 = -1.2 m/s"
+      },
+      {
+        "title": "Va chạm mềm",
+        "problem": "Vật 0.6kg với v = 5m/s va chạm vào vật 0.2kg đứng yên. Sau va chạm hai vật dính nhau. Tính vận tốc sau va chạm.",
+        "solution": "m₁v₁ + m₂v₂ = (m₁ + m₂)V\n0.6×5 + 0 = (0.6 + 0.2)V\nV = 3/0.8 = 3.75 m/s"
+      },
+      {
+        "title": "Viên đạn nổ",
+        "problem": "Viên đạn 1kg bay thẳng đứng với v = 500m/s nổ thành 2 mảnh bằng nhau. Mảnh 1 bay ngang với v = 500√2 m/s. Tìm vận tốc mảnh 2.",
+        "solution": "Bảo toàn động lượng: p⃗ = p⃗₁ + p⃗₂\nChiếu lên Ox: 0 = 0.5×500√2 + 0.5v₂ₓ → v₂ₓ = -500√2\nChiếu lên Oy: 1×500 = 0 + 0.5v₂y → v₂y = 1000\nv₂ = √(v₂ₓ² + v₂y²) = 500√6 m/s"
+      },
+      {
+        "title": "Người nhảy khỏi thuyền",
+        "problem": "Người 60kg nhảy từ thuyền 140kg đang đứng yên với vận tốc 4m/s so với bờ. Tìm vận tốc thuyền.",
+        "solution": "Hệ người-thuyền kín\nmngười×vngười + mthuyền×vthuyền = 0\n60×4 + 140×vthuyền = 0\nvthuyền = -240/140 = -1.71 m/s"
+      }
+    ],
+    "applications": {
+      "rocket_propulsion": "Tên lửa phóng khí với tốc độ cao → tên lửa bay ngược lại",
+      "collision_analysis": "Phân tích tai nạn giao thông",
+      "ballistics": "Tính toán quỹ đạo đạn",
+      "particle_physics": "Nghiên cứu va chạm hạt cơ bản"
+    }
+  }
+}

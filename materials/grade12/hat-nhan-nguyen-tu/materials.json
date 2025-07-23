@@ -1,0 +1,31 @@
+{
+  "chương": "Hạt nhân nguyên tử",
+  "lớp": 12,
+  "môn": "Vật lý", 
+  "nội_dung": {
+    "lý_thuyết": {
+      "cấu_tạo_hạt_nhân": "Proton và neutron",
+      "năng_lượng_liên_kết": "Năng lượng giữ các nucleon",
+      "phóng_xạ": "Phân rã hạt nhân",
+      "công_thức": {
+        "độ_hụt_khối": "Δm = Zm_p + Nm_n - m_hn",
+        "năng_lượng_liên_kết": "W_lk = Δmc²",
+        "định_luật_phóng_xạ": "N = N₀e^(-λt)"
+      }
+    },
+    "tài_liệu": {
+      "vietjack": {
+        "nguồn": "VietJack",
+        "nội_dung": "125 câu trắc nghiệm có lời giải"
+      },
+      "thư_viện_học_liệu": {
+        "nguồn": "Thư Viện Học Liệu",
+        "nội_dung": "Bài tập đầy đủ"
+      },
+      "vndoc": {
+        "nguồn": "VnDoc",
+        "nội_dung": "Tài liệu chi tiết"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "topic": "Chuyển động thẳng đều",
+  "grade": 10,
+  "category": "Chuyển động và Động học",
+  "content": {
+    "definition": "Chuyển động có quĩ đạo là đường thẳng và có tốc độ tức thời không đổi theo thời gian.",
+    "formulas": [
+      {
+        "name": "Quãng đường",
+        "formula": "s = v.t",
+        "variables": {
+          "s": "quãng đường (m)",
+          "v": "vận tốc (m/s)",
+          "t": "thời gian (s)"
+        }
+      },
+      {
+        "name": "Phương trình chuyển động",
+        "formula": "x = x₀ + vt",
+        "variables": {
+          "x": "tọa độ tại thời điểm t",
+          "x₀": "tọa độ ban đầu",
+          "v": "vận tốc",
+          "t": "thời gian"
+        }
+      }
+    ],
+    "units": "m/s hoặc km/h",
+    "examples": [
+      {
+        "title": "Bài tập tốc độ trung bình",
+        "problem": "Một xe chuyển động thẳng đều với vận tốc 60 km/h trong 2 giờ. Tính quãng đường đi được.",
+        "solution": "s = v.t = 60 × 2 = 120 km"
+      }
+    ],
+    "graphs": {
+      "position_time": "Đường thẳng xiên",
+      "velocity_time": "Đường thẳng ngang"
+    },
+    "related_topics": [
+      "Độ dịch chuyển và quãng đường",
+      "Vận tốc tức thời và tốc độ trung bình",
+      "Đồ thị chuyển động thẳng đều"
+    ]
+  }
+}

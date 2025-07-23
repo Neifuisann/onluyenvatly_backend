@@ -1,0 +1,127 @@
+{
+  "subject": "Vật lý 11",
+  "topic": "Dao động",
+  "sections": [
+    {
+      "id": "ly-thuyet",
+      "title": "Lý thuyết cơ bản",
+      "subtopics": [
+        {
+          "title": "Dao động điều hòa",
+          "content": {
+            "definition": "Dao động trong đó li độ của vật là một hàm côsin (hay sin) theo thời gian",
+            "equation": "x = Acos(ωt + φ)",
+            "parameters": {
+              "x": "Li độ - Độ dịch chuyển từ VTCB",
+              "A": "Biên độ - Độ dịch chuyển cực đại",
+              "T": "Chu kỳ - Thời gian thực hiện một dao động",
+              "f": "Tần số - Số dao động trong một giây (f = 1/T)",
+              "ω": "Tần số góc - ω = 2πf = 2π/T",
+              "φ": "Pha ban đầu - Xác định vị trí và chiều chuyển động ban đầu"
+            }
+          }
+        },
+        {
+          "title": "Con lắc lò xo",
+          "content": {
+            "formulas": {
+              "tan_so_goc": "ω = √(k/m)",
+              "chu_ky": "T = 2π√(m/k)",
+              "tan_so": "f = 1/(2π)√(k/m)",
+              "co_nang": "W = ½kA² = ½mω²A²"
+            },
+            "con_lac_thang_dung": {
+              "chieu_dai_cuc_tieu": "lMin = l₀ + Δl - A",
+              "chieu_dai_cuc_dai": "lMax = l₀ + Δl + A"
+            }
+          }
+        },
+        {
+          "title": "Con lắc đơn",
+          "content": {
+            "formula": "T = 2π√(l/g)",
+            "parameters": {
+              "l": "Chiều dài con lắc",
+              "g": "Gia tốc trọng trường"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "bai-tap",
+      "title": "Các dạng bài tập",
+      "types": [
+        "Xác định các đại lượng dao động",
+        "Bài tập về con lắc lò xo",
+        "Bài tập về vận tốc và gia tốc",
+        "Bài tập tổng hợp dao động"
+      ]
+    },
+    {
+      "id": "tai-lieu",
+      "title": "Nguồn tài liệu tham khảo",
+      "resources": [
+        {
+          "type": "website",
+          "items": [
+            {
+              "name": "Loigiaihay.com",
+              "description": "Lý thuyết chi tiết theo SGK Kết nối tri thức, 50 câu trắc nghiệm có lời giải"
+            },
+            {
+              "name": "VietJack.com",
+              "description": "Lý thuyết đầy đủ các bộ sách mới, 500 câu hỏi trắc nghiệm có đáp án"
+            },
+            {
+              "name": "Vatlypt.com",
+              "description": "Tổng hợp lý thuyết và công thức"
+            },
+            {
+              "name": "Thuvienhoclieu.com",
+              "description": "153 trang bài tập trắc nghiệm cả năm"
+            },
+            {
+              "name": "Kenhgiaovien.com",
+              "description": "Trắc nghiệm 4 mức độ (nhận biết, thông hiểu, vận dụng, vận dụng cao)"
+            }
+          ]
+        },
+        {
+          "type": "pdf",
+          "items": [
+            {
+              "name": "HOCMAI",
+              "description": "Tổng hợp công thức Vật lý 11"
+            },
+            {
+              "name": "Thầy Vũ Tuấn Anh",
+              "description": "Công thức giải nhanh Vật lý 10-11-12"
+            },
+            {
+              "name": "Thầy Dĩ Thâm",
+              "description": "Bộ công thức Vật lý 11 chương trình mới"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "items": [
+            {
+              "name": "Thầy Vũ Ngọc Anh",
+              "description": "Vật lý 11 - Bài 1 - Dao động điều hòa"
+            },
+            {
+              "name": "HOCMAI Channel",
+              "description": "Dao động điều hòa - Bài 1, Con lắc lò xo - Bài 3"
+            },
+            {
+              "name": "VietJack Channel",
+              "description": "Vật lý 11 Bài 1 - Dao động điều hòa"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "topic": "Lực và Ba định luật Newton",
+  "grade": 10,
+  "category": "Lực và Động lực học",
+  "content": {
+    "force_concept": {
+      "definition": "Lực là đại lượng vectơ đặc trưng cho tác dụng của vật này lên vật khác, gây ra gia tốc cho vật hoặc làm vật biến dạng",
+      "unit": "Newton (N)",
+      "balanced_forces": {
+        "definition": "Hai lực cân bằng cùng tác dụng vào một vật, cùng giá, cùng độ lớn nhưng ngược chiều",
+        "condition": "ΣF = 0"
+      }
+    },
+    "newton_laws": {
+      "first_law": {
+        "name": "Định luật I Newton (Định luật quán tính)",
+        "statement": "Nếu vật không chịu tác dụng của lực nào hoặc hợp lực bằng 0, vật đứng yên sẽ tiếp tục đứng yên, vật chuyển động sẽ tiếp tục chuyển động thẳng đều",
+        "inertia": "Tính chất bảo toàn vận tốc của vật cả về hướng và độ lớn"
+      },
+      "second_law": {
+        "name": "Định luật II Newton",
+        "statement": "Gia tốc của vật cùng hướng với lực, tỉ lệ thuận với lực và tỉ lệ nghịch với khối lượng",
+        "formula": "F = ma",
+        "variables": {
+          "F": "Lực tác dụng (N)",
+          "m": "Khối lượng (kg)",
+          "a": "Gia tốc (m/s²)"
+        }
+      },
+      "third_law": {
+        "name": "Định luật III Newton",
+        "statement": "Khi vật A tác dụng lên vật B một lực, vật B cũng tác dụng lại vật A một lực",
+        "characteristics": "Hai lực này cùng phương, cùng độ lớn, ngược chiều, đặt vào hai vật khác nhau"
+      }
+    },
+    "problem_solving_method": {
+      "steps": [
+        "Chọn vật khảo sát",
+        "Chọn hệ quy chiếu (hệ trục tọa độ)",
+        "Xác định và biểu diễn các lực",
+        "Viết phương trình theo định luật II Newton",
+        "Chiếu lên các trục tọa độ",
+        "Giải hệ phương trình"
+      ]
+    },
+    "examples": [
+      {
+        "title": "Kéo vật trên mặt phẳng ngang",
+        "problem": "Kéo vật 5kg trên mặt phẳng ngang với lực F = 20N. Hệ số ma sát μ = 0.2. Tính gia tốc.",
+        "solution": "Fms = μmg = 0.2×5×10 = 10N\nFhl = F - Fms = 20 - 10 = 10N\na = Fhl/m = 10/5 = 2 m/s²"
+      },
+      {
+        "title": "Hai vật nối qua ròng rọc",
+        "problem": "m₁ = 3kg trên mặt ngang, m₂ = 2kg treo thẳng đứng. Bỏ qua ma sát. Tính gia tốc hệ.",
+        "solution": "Áp dụng định luật II Newton cho mỗi vật:\nm₂g - T = m₂a\nT = m₁a\nGiải hệ: a = m₂g/(m₁+m₂) = 2×10/(3+2) = 4 m/s²"
+      }
+    ]
+  }
+}

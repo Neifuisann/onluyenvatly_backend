@@ -1,0 +1,73 @@
+{
+  "topic": "Động lượng và Xung lượng",
+  "grade": 10,
+  "category": "Động lượng",
+  "content": {
+    "momentum": {
+      "definition": "Động lượng p⃗ của một vật là một vectơ cùng hướng với vận tốc và được xác định bởi công thức",
+      "formula": "p⃗ = m.v⃗",
+      "variables": {
+        "p⃗": "động lượng (kg.m/s)",
+        "m": "khối lượng của vật (kg)",
+        "v⃗": "vận tốc của vật (m/s)"
+      },
+      "units": "kg.m/s hoặc N.s",
+      "characteristics": [
+        "Là đại lượng vectơ",
+        "Cùng hướng với vận tốc",
+        "Phụ thuộc vào hệ quy chiếu"
+      ]
+    },
+    "impulse": {
+      "definition": "Khi một lực F⃗ không đổi tác dụng lên một vật trong khoảng thời gian Δt thì tích F⃗.Δt được định nghĩa là xung lượng của lực F⃗",
+      "formula": "J⃗ = F⃗.Δt",
+      "unit": "N.s",
+      "impulse_momentum_theorem": {
+        "statement": "Độ biến thiên động lượng của một vật bằng xung lượng của tổng các lực tác dụng lên vật",
+        "formula": "Δp⃗ = p⃗₂ - p⃗₁ = F⃗.Δt",
+        "expanded": "m.v⃗₂ - m.v⃗₁ = F⃗.Δt"
+      }
+    },
+    "newton_second_law_momentum": {
+      "statement": "Lực bằng tốc độ thay đổi động lượng",
+      "formula": "F⃗ = dp⃗/dt",
+      "for_constant_mass": "F⃗ = m.a⃗"
+    },
+    "applications": {
+      "airbag": {
+        "description": "Túi khí ô tô",
+        "principle": "Tăng thời gian va chạm Δt → Giảm lực F"
+      },
+      "karate": {
+        "description": "Đấm vỡ gạch",
+        "principle": "Giảm thời gian tác dụng Δt → Tăng lực F"
+      },
+      "catching_ball": {
+        "description": "Bắt bóng",
+        "principle": "Kéo tay về phía sau để tăng Δt → Giảm lực tác dụng"
+      }
+    },
+    "examples": [
+      {
+        "title": "Động lượng của ô tô",
+        "problem": "Ô tô 1000kg chuyển động với vận tốc 20m/s. Tính động lượng.",
+        "solution": "p = mv = 1000 × 20 = 20000 kg.m/s"
+      },
+      {
+        "title": "Xung lượng và lực",
+        "problem": "Quả bóng 0.5kg bay với v = 10m/s đập vào tường và bật ngược lại với v = 8m/s. Thời gian va chạm 0.02s. Tính lực trung bình.",
+        "solution": "Chọn chiều dương là chiều ban đầu\nΔp = m(v₂ - v₁) = 0.5×(-8 - 10) = -9 kg.m/s\nF = Δp/Δt = -9/0.02 = -450N\nLực có độ lớn 450N, ngược chiều dương"
+      },
+      {
+        "title": "Súng giật",
+        "problem": "Súng 5kg bắn viên đạn 10g với vận tốc 600m/s. Tính vận tốc giật của súng.",
+        "solution": "Bảo toàn động lượng: 0 = mđvđ + msvs\nvs = -mđvđ/ms = -0.01×600/5 = -1.2 m/s\nSúng giật lùi với v = 1.2 m/s"
+      }
+    ],
+    "vector_calculations": {
+      "addition": "p⃗ = p⃗₁ + p⃗₂ (quy tắc hình bình hành)",
+      "projection": "px = p.cosα, py = p.sinα",
+      "magnitude": "|p⃗| = √(px² + py²)"
+    }
+  }
+}

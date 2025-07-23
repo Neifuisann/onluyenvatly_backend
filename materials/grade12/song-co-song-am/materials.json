@@ -1,0 +1,102 @@
+{
+  "chương": "Sóng cơ - Sóng âm",
+  "lớp": 12,
+  "môn": "Vật lý",
+  "nội_dung": {
+    "lý_thuyết": {
+      "sóng_cơ_và_sự_truyền_sóng": {
+        "định_nghĩa": "Sóng cơ là quá trình dao động cơ học lan truyền trong môi trường vật chất",
+        "phân_loại": {
+          "sóng_dọc": "dao động theo phương truyền sóng",
+          "sóng_ngang": "dao động vuông góc với phương truyền sóng"
+        },
+        "đại_lượng_đặc_trưng": [
+          "Chu kỳ T",
+          "Tần số f", 
+          "Bước sóng λ = vT = v/f"
+        ]
+      },
+      "giao_thoa_sóng": {
+        "điều_kiện_cực_đại": "d₁ - d₂ = kλ (k ∈ Z)",
+        "điều_kiện_cực_tiểu": "d₁ - d₂ = (k + 1/2)λ (k ∈ Z)",
+        "url": "https://www.vietjack.com/giai-bai-tap-vat-ly-12/chuong-2-song-co-va-song-am.jsp"
+      },
+      "sóng_dừng": {
+        "điều_kiện_hai_đầu_cố_định": "l = kλ/2 (k = 1, 2, 3...)",
+        "url": "https://hoc247.net/on-tap-vat-ly-12-chuong-2-song-co-index.html"
+      },
+      "sóng_âm": {
+        "phân_loại": {
+          "hạ_âm": "<16Hz",
+          "âm_nghe_được": "16Hz-20kHz",
+          "siêu_âm": ">20kHz"
+        },
+        "công_thức": [
+          "Cường độ âm: I = P/(4πr²)",
+          "Mức cường độ âm: L(dB) = 10log(I/I₀)"
+        ]
+      },
+      "hiệu_ứng_doppler": {
+        "mô_tả": "Tần số thay đổi khi nguồn và người quan sát chuyển động tương đối",
+        "ứng_dụng": ["Y học", "Thiên văn học", "Radar đo tốc độ"],
+        "url": "https://vi.wikipedia.org/wiki/Hiệu_ứng_Doppler"
+      }
+    },
+    "công_thức": {
+      "hệ_thống_công_thức": {
+        "tiêu_đề": "Hệ thống công thức Vật Lý 12 - Chương 2",
+        "url": "https://tailieugiangday.vn/item/he-thong-cong-thuc-vat-ly-12-chuong-2-song-am-va-song-co/5025",
+        "mô_tả": "Tổng hợp đầy đủ công thức về sóng cơ, sóng âm, giao thoa, sóng dừng"
+      }
+    },
+    "bài_tập": {
+      "trắc_nghiệm_có_đáp_án": {
+        "tiêu_đề": "Bài Tập Trắc Nghiệm Vật Lý 12: Chương Sóng Cơ - Sóng Âm (Có Đáp Án)",
+        "url": "https://www.kienguru.vn/blog/bai-tap-trac-nghiem-vat-ly-12-song-co-song-am",
+        "mô_tả": "Tập hợp câu hỏi trắc nghiệm với đáp án chi tiết"
+      },
+      "chuyên_đề_và_đáp_án": {
+        "tiêu_đề": "Chuyên đề sóng cơ bài tập và đáp án",
+        "url": "https://www.slideshare.net/thangtmc73/chuyn-song-c-bai-tp-va-ap-an",
+        "mô_tả": "File PDF với nhiều dạng bài tập từ cơ bản đến nâng cao"
+      }
+    },
+    "trắc_nghiệm": {
+      "moon_vn": {
+        "mô_tả": "Ngân hàng câu hỏi trắc nghiệm sóng cơ với lời giải chi tiết",
+        "nền_tảng": "Moon.vn"
+      },
+      "tuyensinh247": {
+        "mô_tả": "Bộ đề trắc nghiệm theo chuẩn đề thi THPT Quốc gia",
+        "nền_tảng": "Tuyensinh247.com",
+        "đặc_điểm": "Câu hỏi được phân loại theo mức độ khó, có đáp án và giải thích"
+      }
+    },
+    "video_bài_giảng": {
+      "khóa_học_thầy_quân": {
+        "tiêu_đề": "Vật Lý 12 - Chương 2: Sóng Cơ Và Sóng Âm",
+        "url": "https://lythayquan.vn/khoa-hoc/65/2006-vat-ly-12-chuong-2-song-co-va-song-am",
+        "mô_tả": "Khóa học video của thầy Quân với bài giảng chi tiết"
+      },
+      "moon_và_tuyensinh247": {
+        "nội_dung": [
+          "Video giải bài tập mẫu",
+          "Hướng dẫn phương pháp giải nhanh",
+          "Mẹo làm bài trắc nghiệm"
+        ]
+      }
+    },
+    "tài_liệu_bổ_sung": {
+      "tóm_tắt_lý_thuyết": {
+        "tiêu_đề": "Tóm tắt lý thuyết Vật lý 12",
+        "url": "https://baigiangvatlydotnet.wordpress.com/tom-tat-ly-thuyet/",
+        "mô_tả": "Tóm tắt ngắn gọn toàn bộ kiến thức chương sóng cơ"
+      },
+      "chương_trình_học": {
+        "tiêu_đề": "Tóm tắt chương trình học môn Vật lý 12",
+        "url": "https://amcollege.edu.vn/tom-tat-chuong-trinh-hoc-mon-vat-ly-12/",
+        "mô_tả": "Hệ thống kiến thức theo chuẩn Bộ Giáo dục"
+      }
+    }
+  }
+}
