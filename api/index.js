@@ -152,7 +152,18 @@ app.use(addCSRFToken);
 app.get('/api/csrf-token', getCSRFTokenEndpoint);
 
 // Test token endpoint (only in test mode)
-app.get('/api/test-tokens', testTokenEndpoint);
+app.get('/api/test-tokens', (req, res, next) => {
+  // Check if test auth is explicitly enabled
+  const isTestAuthEnabled = process.env.ALLOW_TEST_AUTH === 'true';
+  
+  if (!isTestAuthEnabled) {
+    return res.status(403).json({ 
+      error: 'Test authentication not available - ALLOW_TEST_AUTH must be set to true' 
+    });
+  }
+  
+  return testTokenEndpoint(req, res, next);
+});
 
 // Add CSRF validation for API routes (except login endpoints)
 app.use('/api', validateCSRFToken);

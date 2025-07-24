@@ -3,8 +3,10 @@ const router = express.Router();
 const testAuthService = require('../lib/services/testAuthService');
 const logger = require('../lib/utils/logger');
 
-// Only enable test routes in non-production environments
-if (process.env.NODE_ENV !== 'production' || process.env.ALLOW_TEST_AUTH) {
+// Only enable test routes when test auth is explicitly enabled
+const isTestAuthEnabled = process.env.ALLOW_TEST_AUTH === 'true';
+
+if (isTestAuthEnabled) {
   
   // GET /api/test-tokens - Generate test authentication tokens
   router.get('/test-tokens', (req, res) => {
@@ -118,11 +120,11 @@ if (process.env.NODE_ENV !== 'production' || process.env.ALLOW_TEST_AUTH) {
   });
 
 } else {
-  // Production environment - disable test routes
+  // Test auth disabled - disable test routes
   router.use('*', (req, res) => {
     res.status(404).json({
       success: false,
-      error: 'Test authentication not available in production'
+      error: 'Test authentication not available - ALLOW_TEST_AUTH must be set to true'
     });
   });
 }
