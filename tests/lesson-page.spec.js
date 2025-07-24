@@ -47,7 +47,7 @@ test.describe('Lesson Page', () => {
     }
 
     // Navigate to lesson page (dynamic route)
-    await page.goto(`http://localhost:3000/lesson?id=${lessonId}`);
+    await page.goto(`http://localhost:3000/lesson/${lessonId}`);
   });
 
   test('should load lesson data from backend API', async ({ page }) => {
