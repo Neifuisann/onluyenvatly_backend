@@ -47,3 +47,5 @@ public/uploads/
 # Misc
 .cache/
 clauderun.txt
+*.png
+
