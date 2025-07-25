@@ -23,7 +23,6 @@ const ratingRoutes = require('../routes/ratings');
 const uploadRoutes = require('../routes/uploads');
 const resultRoutes = require('../routes/results');
 const galleryRoutes = require('../routes/gallery');
-const quizRoutes = require('../routes/quiz');
 const tagsRoutes = require('../routes/tags');
 const explainRoutes = require('../routes/explain');
 const adminRoutes = require('../routes/admin');
@@ -31,13 +30,7 @@ const historyRoutes = require('../routes/history');
 const progressRoutes = require('../routes/progress');
 const settingsRoutes = require('../routes/settings');
 const streakRoutes = require('../routes/streaks');
-const xpRoutes = require('../routes/xp');
-const achievementRoutes = require('../routes/achievements');
-const questRoutes = require('../routes/quests');
-const activityRoutes = require('../routes/activity');
-const leagueRoutes = require('../routes/leagues');
 const webhookRoutes = require('../routes/webhooks');
-const debugRoutes = require('../routes/debug');
 const materialsRoutes = require('../routes/materials');
 
 // Import utilities
@@ -184,7 +177,6 @@ app.use('/api/ratings', ratingRoutes);
 app.use('/api/uploads', uploadRoutes);
 app.use('/api/results', resultRoutes);
 app.use('/api/gallery', galleryRoutes);
-app.use('/api/quiz', quizRoutes);
 app.use('/api/tags', tagsRoutes);
 app.use('/api/explain', explainRoutes);
 app.use('/api/ai', require('../routes/ai'));
@@ -194,14 +186,8 @@ app.use('/api/history', historyRoutes);
 app.use('/api/progress', progressRoutes);
 app.use('/api/settings', settingsRoutes);
 app.use('/api/streaks', streakRoutes);
-app.use('/api/xp', xpRoutes);
-app.use('/api/achievements', achievementRoutes);
-app.use('/api/quests', questRoutes);
 app.use('/api/encryption', require('../routes/encryption'));
-app.use('/api/activity', activityRoutes);
-app.use('/api/leagues', leagueRoutes);
 app.use('/api/webhooks', webhookRoutes);
-app.use('/api/debug', debugRoutes);
 app.use('/api/materials', materialsRoutes);
 
 
