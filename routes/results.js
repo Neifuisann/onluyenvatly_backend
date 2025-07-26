@@ -20,13 +20,10 @@ const {
   noCacheMiddleware,
   shortCacheMiddleware
 } = require('../lib/middleware/cache');
-const { resultEncryptionMiddleware } = require('../lib/middleware/encryption');
 
-// Submit lesson result - ENCRYPTED
+// Submit lesson result
 router.post('/',
   requireStudentAuth,
-  // Decrypt first, then validate the decrypted data
-  resultEncryptionMiddleware,
   validateResult,
   noCacheMiddleware,
   resultController.submitResult

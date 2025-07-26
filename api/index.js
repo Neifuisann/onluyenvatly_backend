@@ -116,11 +116,6 @@ app.use(cookieParser());
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ limit: '10mb', extended: true, parameterLimit: 50000 }));
 
-// Import test auth middleware
-const { applyTestAuth, testTokenEndpoint } = require('../lib/middleware/testAuth');
-
-// Apply test auth before session middleware
-app.use(applyTestAuth);
 
 // Configure express-session
 app.set('trust proxy', 1); // Trust first proxy, crucial for Vercel/Heroku/etc.
@@ -144,19 +139,6 @@ app.use(addCSRFToken);
 // CSRF token endpoint
 app.get('/api/csrf-token', getCSRFTokenEndpoint);
 
-// Test token endpoint (only in test mode)
-app.get('/api/test-tokens', (req, res, next) => {
-  // Check if test auth is explicitly enabled
-  const isTestAuthEnabled = process.env.ALLOW_TEST_AUTH === 'true';
-  
-  if (!isTestAuthEnabled) {
-    return res.status(403).json({ 
-      error: 'Test authentication not available - ALLOW_TEST_AUTH must be set to true' 
-    });
-  }
-  
-  return testTokenEndpoint(req, res, next);
-});
 
 // Add CSRF validation for API routes (except login endpoints)
 app.use('/api', validateCSRFToken);
@@ -181,12 +163,10 @@ app.use('/api/tags', tagsRoutes);
 app.use('/api/explain', explainRoutes);
 app.use('/api/ai', require('../routes/ai'));
 app.use('/api/admin', adminRoutes);
-app.use('/api/admin/encryption', require('../routes/adminEncryption'));
 app.use('/api/history', historyRoutes);
 app.use('/api/progress', progressRoutes);
 app.use('/api/settings', settingsRoutes);
 app.use('/api/streaks', streakRoutes);
-app.use('/api/encryption', require('../routes/encryption'));
 app.use('/api/webhooks', webhookRoutes);
 app.use('/api/materials', materialsRoutes);
 

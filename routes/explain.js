@@ -4,7 +4,6 @@ const explainController = require('../lib/controllers/explainController');
 const { requireStudentAuth } = require('../lib/middleware/auth');
 const { noCacheMiddleware } = require('../lib/middleware/cache');
 const { aiRateLimit } = require('../lib/middleware/rateLimiting');
-const { resultEncryptionMiddleware } = require('../lib/middleware/encryption');
 
 // Debug middleware to log incoming explain requests
 router.use((req, res, next) => {
@@ -30,7 +29,6 @@ router.post('/',
     requireStudentAuth,
     noCacheMiddleware,
     aiRateLimit,
-    resultEncryptionMiddleware,
     explainController.explainAnswer
 );
 

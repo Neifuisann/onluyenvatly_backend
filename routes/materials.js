@@ -2,9 +2,10 @@ const express = require('express');
 const router = express.Router();
 const path = require('path');
 const fs = require('fs').promises;
+const { requireStudentAuth } = require('../lib/middleware/auth');
 
 // Get materials for a specific grade
-router.get('/grade/:gradeId', async (req, res) => {
+router.get('/grade/:gradeId', requireStudentAuth, async (req, res) => {
     const gradeId = req.params.gradeId;
     
     try {
@@ -50,7 +51,7 @@ router.get('/grade/:gradeId', async (req, res) => {
 
 
 // Get list of all available materials (for search/discovery)
-router.get('/all', async (req, res) => {
+router.get('/all', requireStudentAuth, async (req, res) => {
     try {
         const allMaterials = [];
         
